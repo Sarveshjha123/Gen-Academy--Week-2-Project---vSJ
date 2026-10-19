@@ -1,0 +1,61 @@
+account_id,account_name,ou,country,segment,employees,industry,nature_of_business,owner_ae_id,contract_start,contract_end,term_months,current_acv_usd,auto_renew,products_owned,health_score,health_band,exec_sponsor_changed,open_p1_cases,dpa_version,gstin_on_file
+ACC-001,Bluegrass Health Partners,AMER,United States,Enterprise,8211,Healthcare,B2C,AE-101,2026-02-01,2027-02-28,12,1667870,True,"A, F, J",60,Amber,True,1,n/a,n/a
+ACC-002,Lakeshore Mutual Insurance,AMER,United States,Strategic,80241,Financial Services,B2C,AE-101,2023-12-01,2026-12-31,36,6454000,False,"A, B, E, F",95,Green,False,0,n/a,n/a
+ACC-003,Copperline Manufacturing,AMER,United States,Commercial,1047,Manufacturing,B2B,AE-102,2025-11-01,2026-11-30,12,615615,True,"A, B, G",78,Green,False,1,n/a,n/a
+ACC-004,Prairie Fresh Grocers,AMER,United States,Commercial,1522,Retail & CPG,B2C,AE-102,2025-12-01,2026-12-15,12,284280,True,"A, G",66,Amber,False,0,n/a,n/a
+ACC-005,Summit Ridge Software,AMER,United States,Enterprise,9107,Technology & IT Services,B2B,AE-101,2026-02-01,2027-02-28,12,1181500,True,"A, E, J",92,Green,False,0,n/a,n/a
+ACC-006,Harbor City Transit Authority,AMER,United States,Enterprise,3321,Public Sector,Public Sector,AE-103,2026-03-01,2027-03-31,12,1108800,False,"B, I",87,Green,False,0,n/a,n/a
+ACC-007,Maple Leaf Outfitters,AMER,Canada,SMB,107,Retail & CPG,B2C,AE-103,2024-01-01,2027-01-31,36,35280,True,A,79,Green,True,0,n/a,n/a
+ACC-008,Northern Lights Credit Union,AMER,Canada,Commercial,669,Financial Services,B2C,AE-102,2023-11-01,2026-11-30,36,746974,True,"A, D, E, J",84,Green,False,0,n/a,n/a
+ACC-009,Redwood Media Group,AMER,United States,Commercial,1635,Media & Telecom,B2B2C,AE-102,2024-05-01,2027-05-31,36,903645,False,"A, D, G, I",70,Amber,True,0,n/a,n/a
+ACC-010,Keystone Logistics,AMER,United States,SMB,150,Transportation & Logistics,B2B,AE-103,2023-11-01,2026-11-30,36,32536,True,I,65,Amber,False,0,n/a,n/a
+ACC-011,Brightpath Learning,AMER,United States,SMB,89,Education,Non-profit,AE-103,2026-05-01,2027-05-31,12,108398,False,"A, D",69,Amber,False,1,n/a,n/a
+ACC-012,Granite Peak Consulting,AMER,Canada,Strategic,49502,Professional Services,B2B,AE-101,2025-12-01,2026-12-31,12,2650050,True,"A, D",64,Amber,False,2,n/a,n/a
+ACC-013,Helvetia Logistics AG,EMEA,Switzerland,Enterprise,4255,Transportation & Logistics,B2B,AE-201,2024-01-01,2027-01-31,36,1172600,True,"A, B, E, F",64,Amber,True,1,v3.1,n/a
+ACC-014,Thames Valley Building Society,EMEA,United Kingdom,Commercial,1460,Financial Services,B2C,AE-202,2026-02-01,2027-02-28,12,394200,True,"A, C",87,Green,False,0,v4.2,n/a
+ACC-015,Rheinwerk Maschinenbau GmbH,EMEA,Germany,Enterprise,7178,Manufacturing,B2B,AE-201,2026-04-01,2027-04-30,12,948000,True,"A, C, J",88,Green,False,0,v4.2,n/a
+ACC-016,Maison Lumière Groupe,EMEA,France,Commercial,709,Retail & CPG,B2C,AE-202,2025-03-01,2027-03-31,24,413910,False,"A, B, D, E",70,Amber,False,2,v4.2,n/a
+ACC-017,Delta Haven Insurance,EMEA,Netherlands,Strategic,43153,Financial Services,B2C,AE-201,2024-01-01,2027-01-31,36,2100540,True,"B, F, G",65,Amber,True,1,v4.2,n/a
+ACC-018,Alpenglow Kliniken,EMEA,Germany,Commercial,1392,Healthcare,B2C,AE-202,2026-04-01,2027-04-30,12,51300,True,C,84,Green,False,1,v3.1,n/a
+ACC-019,Albion Digital Media,EMEA,United Kingdom,SMB,171,Media & Telecom,B2B2C,AE-203,2026-06-01,2027-06-30,12,141210,False,"A, B, F, G",89,Green,False,0,v4.2,n/a
+ACC-020,Gulfstar Trading LLC,EMEA,UAE,Commercial,860,Retail & CPG,B2C,AE-202,2025-07-01,2027-07-31,24,201150,True,"B, C",52,Amber,False,1,v3.1,n/a
+ACC-021,Polder Energy BV,EMEA,Netherlands,SMB,178,Manufacturing,B2B,AE-203,2025-05-01,2027-05-31,24,89281,True,"B, E, F, G",82,Green,False,1,v4.2,n/a
+ACC-022,Canal Street Consulting,EMEA,United Kingdom,SMB,58,Professional Services,B2B,AE-203,2026-02-01,2027-02-28,12,110152,False,"B, D, F",75,Green,False,1,v4.2,n/a
+ACC-023,Ville de Rivemont,EMEA,France,Enterprise,8453,Public Sector,Public Sector,AE-201,2025-11-01,2026-11-30,12,1601712,True,"A, D, E",80,Green,False,0,v4.2,n/a
+ACC-024,Nordsee Freight GmbH,EMEA,Germany,Strategic,46368,Transportation & Logistics,B2B,AE-201,2024-11-01,2026-11-30,24,4095990,True,"A, C",74,Amber,True,0,v3.1,n/a
+ACC-025,Saffron Retail Pvt Ltd,South Asia,India,Commercial,1780,Retail & CPG,B2C,AE-302,2025-12-01,2026-12-31,12,475200,True,"A, G, H",89,Green,False,0,n/a,False
+ACC-026,Indus Fintech Solutions,South Asia,India,SMB,66,Financial Services,B2C,AE-303,2024-10-01,2026-10-31,24,171206,True,"A, E, I",82,Green,False,0,n/a,True
+ACC-027,Monsoon Health Network,South Asia,India,Enterprise,9497,Healthcare,B2C,AE-301,2025-05-01,2027-05-31,24,750120,True,"C, I",87,Green,False,0,n/a,True
+ACC-028,Lotus Ridge IT Services,South Asia,India,Strategic,44309,Technology & IT Services,B2B,AE-301,2026-01-01,2027-01-31,12,4152995,False,"B, E, F",57,Amber,False,1,n/a,True
+ACC-029,Deccan Motors Ltd,South Asia,India,Enterprise,7541,Manufacturing,B2B,AE-301,2026-02-01,2027-02-28,12,1326960,False,"A, C, G",81,Green,False,0,n/a,True
+ACC-030,Ceylon Tea Traders,South Asia,Sri Lanka,SMB,93,Retail & CPG,B2C,AE-303,2024-07-01,2027-07-31,36,66894,True,"E, G, H, J",79,Green,False,1,n/a,n/a
+ACC-031,Bengal Textiles Ltd,South Asia,Bangladesh,Commercial,986,Manufacturing,B2B,AE-302,2025-01-01,2027-01-31,24,135960,False,"D, G, J",60,Amber,False,2,n/a,n/a
+ACC-032,Ganga Microfinance,South Asia,India,Commercial,956,Financial Services,B2C,AE-302,2024-12-01,2026-12-31,24,414824,False,"C, D, E, I",86,Green,False,1,n/a,True
+ACC-033,Himalaya EduTech,South Asia,India,SMB,141,Education,Non-profit,AE-303,2025-12-01,2026-12-31,12,103759,True,"A, E, I",93,Green,False,0,n/a,True
+ACC-034,Kaveri Logistics,South Asia,India,SMB,45,Transportation & Logistics,B2B,AE-303,2023-12-01,2026-12-31,36,101936,False,"A, C, J",73,Amber,True,0,n/a,False
+ACC-035,Colombo Port Services,South Asia,Sri Lanka,Commercial,1624,Transportation & Logistics,B2B,AE-302,2025-12-01,2026-12-31,12,125028,False,"C, E",61,Amber,True,2,n/a,n/a
+ACC-036,Malabar Spice Exports,South Asia,India,SMB,104,Retail & CPG,B2C,AE-303,2024-12-01,2026-12-31,24,149923,True,"A, B, D, H",77,Green,False,1,n/a,False
+ACC-037,Andes Retail Group,LATAM,Chile,Enterprise,4499,Retail & CPG,B2C,AE-401,2026-01-01,2027-01-15,12,1428000,False,"A, H",36,Red,True,2,n/a,n/a
+ACC-038,Rio Verde Bancorp,LATAM,Brazil,Strategic,67292,Financial Services,B2C,AE-401,2026-05-01,2027-05-31,12,4284000,False,"A, B, E",85,Green,False,1,n/a,n/a
+ACC-039,Azteca Telecom,LATAM,Mexico,Enterprise,2690,Media & Telecom,B2B2C,AE-401,2025-10-01,2026-10-31,12,2430032,True,"A, F, H, J",82,Green,False,0,n/a,n/a
+ACC-040,Pampas Agro Industrial,LATAM,Argentina,Commercial,1285,Manufacturing,B2B,AE-402,2024-11-01,2026-11-30,24,777100,False,"A, C, I, J",74,Amber,True,0,n/a,n/a
+ACC-041,Café Montaña SA,LATAM,Colombia,SMB,71,Retail & CPG,B2C,AE-403,2025-12-01,2026-12-31,12,80171,False,"B, C, H",79,Green,False,0,n/a,n/a
+ACC-042,São Paulo Saúde,LATAM,Brazil,Commercial,866,Healthcare,B2C,AE-402,2025-10-01,2026-10-31,12,206916,True,"A, E",76,Green,False,0,n/a,n/a
+ACC-043,Mercado Sol Online,LATAM,Mexico,Commercial,726,Retail & CPG,B2C,AE-402,2024-01-01,2027-01-31,36,384540,True,"B, D",71,Amber,False,0,n/a,n/a
+ACC-044,Patagonia Seguros,LATAM,Argentina,SMB,103,Financial Services,B2C,AE-403,2024-06-01,2027-06-30,36,8550,True,D,48,Red,True,1,n/a,n/a
+ACC-045,Bogotá Servicios Digitales,LATAM,Colombia,Commercial,1749,Public Sector,Public Sector,AE-402,2026-02-01,2027-02-28,12,368793,True,"B, E, G",72,Amber,False,0,n/a,n/a
+ACC-046,Valparaíso Shipping,LATAM,Chile,SMB,170,Transportation & Logistics,B2B,AE-403,2026-05-01,2027-05-31,12,140165,True,"A, H, J",83,Green,False,1,n/a,n/a
+ACC-047,Monterrey Steelworks,LATAM,Mexico,Enterprise,7965,Manufacturing,B2B,AE-401,2026-04-01,2027-04-30,12,1735263,True,"A, C, I, J",68,Amber,False,2,n/a,n/a
+ACC-048,Lumen Consultores,LATAM,Brazil,SMB,136,Professional Services,B2B,AE-403,2025-02-01,2027-02-28,24,170807,False,"A, C, E, F",56,Amber,True,1,n/a,n/a
+ACC-049,Southern Cross Health,ANZ,Australia,Enterprise,3051,Healthcare,B2C,AE-501,2023-12-01,2026-12-31,36,194340,False,"E, G",63,Amber,True,1,n/a,n/a
+ACC-050,Kiwi Harbour Bank,ANZ,New Zealand,Enterprise,3959,Financial Services,B2C,AE-501,2026-01-01,2027-01-31,12,1094700,True,"A, B",87,Green,False,0,n/a,n/a
+ACC-051,Outback Mining Services,ANZ,Australia,Commercial,543,Manufacturing,B2B,AE-502,2026-04-01,2027-04-30,12,444380,True,"A, J",68,Amber,False,0,n/a,n/a
+ACC-052,Coral Coast Retail,ANZ,Australia,Commercial,1371,Retail & CPG,B2C,AE-502,2025-11-01,2026-11-30,12,187920,True,A,84,Green,False,0,n/a,n/a
+ACC-053,Tasman Freight,ANZ,New Zealand,SMB,127,Transportation & Logistics,B2B,AE-503,2026-06-01,2027-06-30,12,162944,True,"A, B, E, J",79,Green,False,0,n/a,n/a
+ACC-054,Wattle Grove Council,ANZ,Australia,Commercial,960,Public Sector,Public Sector,AE-502,2024-04-01,2027-04-30,36,603328,False,"A, I, J",55,Amber,False,2,n/a,n/a
+ACC-055,Aotearoa Learning Trust,ANZ,New Zealand,SMB,59,Education,Non-profit,AE-503,2026-03-01,2027-03-31,12,15390,False,C,47,Red,False,0,n/a,n/a
+ACC-056,Eucalyptus Energy,ANZ,Australia,Enterprise,8149,Manufacturing,B2B,AE-501,2025-03-01,2027-03-31,24,429660,True,B,48,Red,False,0,n/a,n/a
+ACC-057,Harbour Bridge Insurance,ANZ,Australia,Commercial,597,Financial Services,B2C,AE-502,2025-12-01,2026-12-31,12,582552,True,"A, B, C, E",92,Green,False,0,n/a,n/a
+ACC-058,Southern Signal Telecom,ANZ,Australia,SMB,126,Media & Telecom,B2B2C,AE-503,2026-03-01,2027-03-31,12,87390,True,"A, D, I, J",71,Amber,False,2,n/a,n/a
+ACC-059,Fernleaf Software,ANZ,New Zealand,SMB,186,Technology & IT Services,B2B,AE-503,2026-04-01,2027-04-30,12,137865,True,"A, B",70,Amber,True,1,n/a,n/a
+ACC-060,Canberra Digital Services Agency,ANZ,Australia,Strategic,27198,Public Sector,Public Sector,AE-501,2024-04-01,2027-04-30,36,3686400,False,"B, I, J",88,Green,False,0,n/a,n/a

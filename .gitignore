@@ -1,0 +1,16 @@
+# secrets: never upload
+.env
+
+# local environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/secrets.toml
+
+# rebuilt by python -m src.ingest
+index/
+
+# downloaded step zips
+*.zip

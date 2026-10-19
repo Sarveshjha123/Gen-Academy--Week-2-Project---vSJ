@@ -1,0 +1,15 @@
+# LangChain + LangGraph (the course framework)
+langchain-core
+langchain-openai          # talks to Nebius (OpenAI-compatible)
+langchain-pinecone        # talks to Pinecone
+pinecone                  # Pinecone's own library
+langchain-huggingface     # free local embedding model (MiniLM)
+sentence-transformers
+langchain-text-splitters
+langgraph
+# Data + app
+pandas
+openpyxl
+pyyaml
+python-dotenv
+streamlit

@@ -1,0 +1,30 @@
+file,doc_id,title,ou,doc_type,products,effective_from,effective_to
+global/GLB-REN-001_renewal_policy.md,GLB-REN-001,Global Renewal Policy,GLOBAL,renewal_policy,all,2026-02-01,2027-01-31
+global/GLB-ACV-002_acv_and_booking_policy.md,GLB-ACV-002,ACV and Booking Policy,GLOBAL,acv_policy,all,2026-02-01,2027-01-31
+global/GLB-ATTR-003_attrition_and_churn_policy.md,GLB-ATTR-003,Attrition and Churn Policy,GLOBAL,attrition_policy,all,2026-02-01,2027-01-31
+global/GLB-DD-004_deal_desk_approval_matrix.md,GLB-DD-004,Deal Desk Approval Matrix,GLOBAL,approval_matrix,all,2026-02-01,2027-01-31
+global/GLB-CAT-005_product_and_consumption_catalog.md,GLB-CAT-005,Product and Consumption Catalog,GLOBAL,catalog,A; B; C; D; E; F; G; H; I; J,2026-02-01,2027-01-31
+global/GLB-COMP-006_commission_and_quota_plan.md,GLB-COMP-006,AE Commission and Quota Retirement Plan,GLOBAL,comp_plan,all,2026-02-01,2027-01-31
+global/GLB-HEALTH-007_health_and_consumption_playbook.md,GLB-HEALTH-007,Customer Health and Consumption Playbook,GLOBAL,health_playbook,all,2026-02-01,2027-01-31
+global/GLB-PLAY-008_renewal_strategy_playbook.md,GLB-PLAY-008,Renewal Strategy Playbook,GLOBAL,playbook,all,2026-02-01,2027-01-31
+global/GLB-GLOS-009_glossary.md,GLB-GLOS-009,Renewals Glossary,GLOBAL,glossary,all,2026-02-01,2027-01-31
+amer/AMER-REN-101_renewal_addendum.md,AMER-REN-101,AMER Renewal Addendum,AMER,renewal_policy,all,2026-02-01,2027-01-31
+amer/AMER-PROMO-102_promotions_H2.md,AMER-PROMO-102,AMER Promotions FY27 H2,AMER,promotion,C; D; F,2026-08-01,2027-01-31
+amer/AMER-PROG-103_sales_programs.md,AMER-PROG-103,AMER SPIFFs and Quota Programs FY27,AMER,sales_program,all,2026-08-01,2027-01-31
+emea/EMEA-REN-201_renewal_addendum.md,EMEA-REN-201,EMEA Renewal Addendum,EMEA,renewal_policy,all,2026-02-01,2027-01-31
+emea/EMEA-PROMO-202_promotions_H2.md,EMEA-PROMO-202,EMEA Promotions FY27 H2,EMEA,promotion,B; I,2026-08-01,2027-01-31
+emea/EMEA-PROG-203_sales_programs.md,EMEA-PROG-203,EMEA SPIFFs and Quota Programs FY27,EMEA,sales_program,all,2026-08-01,2027-01-31
+south-asia/SA-REN-301_renewal_addendum.md,SA-REN-301,South Asia Renewal Addendum,South Asia,renewal_policy,all,2026-02-01,2027-01-31
+south-asia/SA-PROMO-302_promotions_H2.md,SA-PROMO-302,South Asia Promotions FY27 H2,South Asia,promotion,A; C; G,2026-08-01,2027-01-31
+south-asia/SA-PROG-303_sales_programs.md,SA-PROG-303,South Asia SPIFFs and Quota Programs FY27,South Asia,sales_program,all,2026-08-01,2027-01-31
+latam/LATAM-REN-401_renewal_addendum.md,LATAM-REN-401,LATAM Renewal Addendum,LATAM,renewal_policy,all,2026-02-01,2027-01-31
+latam/LATAM-PROMO-402_promotions_H2.md,LATAM-PROMO-402,LATAM Promotions FY27 H2,LATAM,promotion,F; H,2026-08-01,2027-01-31
+latam/LATAM-PROG-403_sales_programs.md,LATAM-PROG-403,LATAM SPIFFs and Quota Programs FY27,LATAM,sales_program,all,2026-08-01,2027-01-31
+anz/ANZ-REN-501_renewal_addendum.md,ANZ-REN-501,ANZ Renewal Addendum,ANZ,renewal_policy,all,2026-02-01,2027-01-31
+anz/ANZ-PROMO-502_promotions_H2.md,ANZ-PROMO-502,ANZ Promotions FY27 H2,ANZ,promotion,B; F,2026-08-01,2027-01-31
+anz/ANZ-PROG-503_sales_programs.md,ANZ-PROG-503,ANZ SPIFFs and Quota Programs FY27,ANZ,sales_program,all,2026-08-01,2027-01-31
+amer/AMER-BENCH-104_consumption_benchmark_oct2026.md,AMER-BENCH-104,AMER Consumption Benchmark Report (Oct 2026),AMER,benchmark,all,2026-10-01,2026-12-31
+emea/EMEA-BENCH-204_consumption_benchmark_oct2026.md,EMEA-BENCH-204,EMEA Consumption Benchmark Report (Oct 2026),EMEA,benchmark,all,2026-10-01,2026-12-31
+south-asia/SA-BENCH-304_consumption_benchmark_oct2026.md,SA-BENCH-304,South Asia Consumption Benchmark Report (Oct 2026),South Asia,benchmark,all,2026-10-01,2026-12-31
+latam/LATAM-BENCH-404_consumption_benchmark_oct2026.md,LATAM-BENCH-404,LATAM Consumption Benchmark Report (Oct 2026),LATAM,benchmark,all,2026-10-01,2026-12-31
+anz/ANZ-BENCH-504_consumption_benchmark_oct2026.md,ANZ-BENCH-504,ANZ Consumption Benchmark Report (Oct 2026),ANZ,benchmark,all,2026-10-01,2026-12-31

@@ -1,0 +1,686 @@
+id,type,ou,question,found_right_account,retrieved_right_doc,answer_correct,faithful,cited,latency_s,answer_attempts,judge_reason,checker_reason,answer,run,setting
+Q01,full_brief,EMEA,Build me a renewal strategy for Helvetia Logistics AG.,1,1,1,1,1,39.5,2,"Answer includes all required blockers, health details, consumption metrics, renewal incentives, promotion restrictions, and scenario calculations as specified.","All facts, dates, numbers, and rules are present in the provided account data and documents.","# Renewal strategy: Helvetia Logistics AG
+
+## 1. Blockers and deadlines
+- **Notice period missed** – required notice date 2026-10-03 is **PASSED**; any price uplift needs the customer’s written agreement [EMEA-REN-201].  
+- **Data‑processing agreement** – DPA v4.2 must be re‑signed **before** the renewal can be booked [EMEA-REN-201].  
+- **Early‑renewal SPIFF deadline** – to earn the “Renew Early” 105 % credit the deal must close‑won **by 2026-12-02** (60 days before contract end) [EMEA-PROG-203].  
+- **Health amber** – the account is in the Amber band (64) and the health play requires fixing the weak driver before the proposal [GLB-HEALTH-007].  
+- **Exec sponsor change** – sponsor changed [Account data].  
+- **Open P1 case** – 1 open P1 case [Account data].
+
+## 2. Account snapshot
+
+| Item | Value | Source |
+|---|---|---|
+| OU / country | EMEA / Switzerland | [Account data] |
+| Segment / industry | Enterprise / Transportation & Logistics | [Account data] |
+| Contract | 2024-01-01 to 2027-01-31 (36 months) | [Account data] |
+| Days to contract end | 106 (books in FY27) | [Account data] |
+| Notice date | 2026-10-03 (120 days, PASSED) | [EMEA-REN-201] |
+| Uplift cap | up to 4% per year (multi-year) | [EMEA-REN-201] |
+| Health play | Amber (64): fix the weak driver before the proposal | [GLB-HEALTH-007] |
+| Current ACV | $1,172,600 | [Account data] |
+| Auto-renew | Yes | [Account data] |
+| Health | 64 (Amber) | [Account data] |
+| Exec sponsor changed / open P1 cases | Yes / 1 | [Account data] |
+| Owner AE | Sophie Laurent, 96% of FY27 quota $4,200,000 | [Account data] |
+
+## 3. Health and consumption
+
+| Product | Licensed | Used (last 3 months) | Trend | Band | Region average | Source |
+|---|---|---|---|---|---|---|
+| Product A · Sales CRM | 600 seats | 64.0% | falling (-9%) | healthy | 84.5% | [Account data] |
+| Product B · Service Desk | 300 seats | 92.8% | rising (+9%) | expansion-ready | 75.8% | [Account data] |
+| Product E · Customer Data Platform | 3,000,000 credits per year | 116.9% | rising (+7%) | OVERAGE | 65.6% | [Account data] |
+| Product F · AI Agents | 2,000,000 credits per year | 22.9% | falling (-16%) | SHELFWARE | 71.0% | [Account data] |
+
+## 4. Policy guardrails
+- **Notice period** – 120 days for DACH customers (Switzerland) [EMEA-REN-201].  
+- **Uplift cap** – up to **4 % per year** for multi‑year contracts [EMEA-REN-201].  
+- **Legal** – DPA v4.2 must be signed before booking [EMEA-REN-201].  
+- **Health play** – Amber → fix weak driver before proposal [GLB-HEALTH-007].  
+- **AE accelerator** – AE at 96 % of quota → **standard** commission rates, no accelerator [GLB-COMP-006].  
+- **Approvals** – AE can approve up to 5 % discount, RVP up to 12 %, Deal Desk up to 20 % off current ACV [EMEA-REN-201].
+
+## Promotions and programs: Helvetia Logistics AG (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Cross-Sell Champion | SPIFF/program | if added a new product at renewal | Account does not own several products (e.g., Product C, D, G) and can add one at renewal to qualify for the 200% first‑year ACV credit. | [EMEA-PROG-203] |
+| Renew Early | SPIFF/program | if closed by 2026-12-02 | Renewal must be closed‑won at least 60 days before contract end (2026-12-02) to earn the 105% ACV credit; renewal not yet closed. | [EMEA-PROG-203] |
+| Note | SPIFF/program | no | EMEA does not run an AI Attach SPIFF or a Consumption True‑Up SPIFF in FY27. | [EMEA-PROG-203] |
+| Service Switch | promotion | no | Customer is in Transportation & Logistics (not Financial Services) and already owns Product B. | [EMEA-PROMO-202] |
+| Portal for Public Services | promotion | no | Customer is not in Public Sector or Healthcare. | [EMEA-PROMO-202] |
+| Note | promotion | no | There is no Product F (AI Agents) promotion in EMEA in FY27 H2. | [EMEA-PROMO-202] |
+
+- EMEA does not run an AI Attach SPIFF or a Consumption True‑Up SPIFF in FY27. [EMEA-PROG-203]
+- There is no Product F (AI Agents) promotion in EMEA in FY27 H2. [EMEA-PROMO-202]
+- No promotion for Product E (Customer Data Platform) in EMEA. [EMEA-PROMO-202]
+- No promotion for Product F (AI Agents) in EMEA. [EMEA-PROMO-202]
+
+## 5. Opportunities
+- **True‑up (Product E)** – $25,027 ACV (508,688 extra credits × $0.0492) [Account data].  
+- **Expansion (Product B seats)** – +30 seats = $27,060 ACV [Account data].  
+- **Cross‑sell estimates** – Product C $141,639; Product D $241,014; Product G $67,184 (peer‑based estimates) [Account data].  
+- **Eligible SPIFFs** – *Cross‑Sell Champion* (200 % of first‑year ACV credit) if a new product is added at renewal [EMEA-PROG-203]; *Renew Early* (105 % of renewal ACV credit) if closed by 2026-12-02 [EMEA-PROG-203].  
+- **Customer interest** – COO wants renewal paperwork early to give procurement time [TR-ACC013-20260820].  
+
+## 6. Scenarios  
+
+| Scenario | ACV | Commission | Quota retired | SPIFFs | Approvals | Source |
+|---|---|---|---|---|---|---|
+| **1. Flat renewal only** (no uplift) | $1,172,600 [Account data] | 3 % of renewal = $35,178 [GLB-COMP-006] | 50 % of renewal = $586,300 [GLB-COMP-006] | – | None (no discount) | [EMEA-REN-201], [GLB-COMP-006] |
+| **2. Flat + Expansion (Product B seats)** | $1,199,660 (1,172,600 + 27,060) [Account data] | Renewal 3 % = $35,178 [GLB-COMP-006] + Expansion 7 % of $27,060 = $1,894 [GLB-COMP-006] → **$37,072** | 50 % renewal = $586,300 [GLB-COMP-006] + 100 % expansion = $27,060 [GLB-COMP-006] → **$613,360** | – | None (no discount) | [EMEA-REN-201], [GLB-COMP-006] |
+| **3. Flat + Expansion + True‑up + Cross‑sell (Product C)** | $1,366,326 (1,172,600 + 27,060 + 25,027 + 141,639) [Account data] | Renewal 3 % = $35,178 [GLB-COMP-006] + Expansion 7 % of $27,060 = $1,894 [GLB-COMP-006] + True‑up 7 % of $25,027 = $1,752 [GLB-COMP-006] + Cross‑sell 8 % of $141,639 = $11,331 [GLB-COMP-006] → **$50,155** | 50 % renewal = $586,300 [GLB-COMP-006] + 100 % expansion = $27,060 [GLB-COMP-006] + 100 % true‑up = $25,027 [GLB-COMP-006] + 100 % cross‑sell = $141,639 [GLB-COMP-006] → **$780,026** | *Cross‑Sell Champion* 200 % of $141,639 = $283,278 credit [EMEA-PROG-203]; *Renew Early* 105 % of renewal $1,172,600 = $1,231,230 credit if closed by 2026-12-02 [EMEA-PROG-203] | None (no discount) – DPA signing required [EMEA-REN-201] | [EMEA-REN-201], [GLB-COMP-006], [EMEA-PROG-203] |
+
+## 7. Recommendation and next 3 actions
+1. **Secure the DPA v4.2 signature** immediately; without it the renewal cannot be booked [EMEA-REN-201].  
+2. **Prepare a “flat‑renewal + expansion (Product B) + true‑up (Product E)” proposal** to stay within the 4 % uplift cap (no uplift needed) and capture the $25,027 true‑up and $27,060 seat expansion [Account data]; this meets the health‑play requirement by adding value without price increase.  
+3. **Add a cross‑sell product (e.g., Product C)** to qualify for the *Cross‑Sell Champion* SPIFF (200 % credit) and schedule the final contract sign‑off **by 2026-12-02** to also capture the *Renew Early* 105 % credit [EMEA-PROG-203]; coordinate with the COO’s request for early paperwork and ensure the DPA is signed before the close date.",1,with_ou_filter
+Q02,full_brief,LATAM,Andes Retail Group is renewing soon. What's the risk and what should I do?,1,1,1,1,1,48.3,3,"Assistant includes all expected key facts (health score, sponsor change, P1 cases, product usage percentages, Save Desk registration, notice date, SPIFF, promotions eligibility, and no Renew Early) without contradiction.","All facts, dates, numbers, and rules are present in the account data or provided documents","# Renewal strategy: Andes Retail Group
+
+## 1. Blockers and deadlines
+- **Notice must be given by 2026-11-16 (60‑day notice period)** – upcoming, 30 days from today [ LATAM-REN-401 ].  
+- **Health‑play registration:** Save Desk registration required at least 60 days before contract end (by 2026-11-16) because health score is Red [ GLB-HEALTH-007 ].  
+- **Executive sponsor changed** – risk factor noted in account data [Account data].  
+- **Open P1 cases (2)** – risk factor noted in account data [Account data].
+
+## 2. Account snapshot
+
+| Item | Value | Source |
+|---|---|---|
+| OU / country | LATAM / Chile | [Account data] |
+| Segment / industry | Enterprise / Retail & CPG | [Account data] |
+| Contract | 2026-01-01 to 2027-01-15 (12 months) | [Account data] |
+| Days to contract end | 90 (books in FY27) | [Account data] |
+| Notice date | 2026-11-16 (60 days, upcoming) | [LATAM-REN-401] |
+| Uplift cap | 6% (1-year), or up to 10% only with a written FX or inflation justification | [LATAM-REN-401] |
+| Health play | Red (36): register with the Save Desk at least 60 days before contract end, i.e. by 2026-11-16; lead with value, not price | [GLB-ATTR-003] [GLB-HEALTH-007] |
+| Current ACV | $1,428,000 | [Account data] |
+| Auto-renew | No | [Account data] |
+| Health | 36 (Red) | [Account data] |
+| Exec sponsor changed / open P1 cases | Yes / 2 | [Account data] |
+| Owner AE | Valentina Cruz, 79% of FY27 quota $4,200,000 | [Account data] |
+
+## 3. Health and consumption
+
+| Product | Licensed | Used (last 3 months) | Trend | Band | Region average | Source |
+|---|---|---|---|---|---|---|
+| Product A · Sales CRM | 900 seats | 65.0% | falling (-7%) | healthy | 77.1% | [Account data] |
+| Product H · Commerce | 40,000,000 USD GMV per year | 22.9% | falling (-19%) | SHELFWARE | 76.2% | [Account data] |
+
+## 4. Policy guardrails
+- **Notice period:** 60 days [ LATAM-REN-401 ].  
+- **Uplift cap:** 6 % without justification; up to 10 % only with written FX or inflation justification [ LATAM-REN-401 ].  
+- **Legal:** No DPA or GSTIN required for Chile [Account data].  
+- **Health play (Red):** Register with Save Desk by 2026-11-16 and lead with value, not price [ GLB-HEALTH-007 ].  
+- **AE accelerator:** 79 % of quota → standard commission rates, no accelerator [ GLB-COMP-006 ].  
+- **Approvals:** AE up to 5 % of deal, RVP up to 10 %, Deal Desk up to 20 % [ LATAM-REN-401 ].
+
+## Promotions and programs: Andes Retail Group (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Logo Retention SPIFF | SPIFF/program | if renews at flat or higher ACV | Health score 36 (<50) at T‑90 (2026-10-17) makes the account at‑risk; industry and segment are eligible; eligibility requires the renewal to be at flat or higher ACV, which is not yet known. | [LATAM-PROG-403] |
+| Multi-Year Kicker | SPIFF/program | if 3-year renewal | The kicker applies only to a 3‑year renewal; no 3‑year renewal has been indicated for this account. | [LATAM-PROG-403] |
+| Note | promotion | no | This section only states that a Renew Early program is not run in LATAM FY27; it is not an offer. | [LATAM-PROG-403] |
+| Commerce Fiesta | promotion | yes | Account is in Retail & CPG industry, which matches eligibility; the promotion is valid Oct 1 – Dec 31 2026, which includes today (2026‑10‑17); the account owns Product H (Commerce) which is the discounted product. | [LATAM-PROMO-402] |
+| AI Agents Pilot | promotion | yes | Current ACV $1,428,000 ≥ $100,000 threshold; the account owns Product A; the promotion is valid Aug 1 2026 – Jan 31 2027, which includes today. | [LATAM-PROMO-402] |
+
+- LATAM does not run a Renew Early program in FY27. [LATAM-PROG-403]
+- Promotion Commerce Fiesta targets Product H (SHELFWARE). [LATAM-PROMO-402]
+
+## 5. Opportunities
+- **True‑up:** Product H consumption is only 19.1 % of committed GMV – no over‑usage to true‑up (no estimate) [Account data].  
+- **Expansion:** Product A seats active 575/900 (63.9 %); opportunity to add seats or increase utilization (no estimate) [Account data].  
+- **Cross‑sell estimates:**  
+  * Product B (Service Desk) – $1,077,281 [Account data]  
+  * Product C (Analytics & BI) – $330,336 [Account data]  
+  * Product E (Customer Data Platform) – $228,721 [Account data]  
+- **Promotions eligible:**  
+  * **Commerce Fiesta** – 30 % off Product H first‑year fee (valid Oct 1-Dec 31 2026) [ LATAM-PROMO-402 ].  
+  * **AI Agents Pilot** – free 3‑month Product F pilot (eligible ACV ≥ $100k, owns Product A) [ LATAM-PROMO-402 ].  
+- **SPIFF:** Logo Retention $1,000 if renewal is flat or higher ACV (account is at‑risk) [ LATAM-PROG-403 ].
+
+## 6. Scenarios
+| Scenario | ACV | Commission | Quota retired | SPIFFs | Approvals | Source |
+|---|---|---|---|---|---|---|
+| Flat renewal (no uplift) | $1,428,000 | 3 % × $1,428,000 = $42,840 | 50 % × $1,428,000 = $714,000 | $1,000 Logo Retention (eligible) | AE (≤5 %) | [Account data], [GLB-COMP-006], [LATAM-PROG-403] |
+| Uplift 6 % (max without justification) | $1,513,680 (base + $85,680) | 3 % × $1,428,000 + 8 % × $85,680 = $49,694.4 | 50 % × $1,428,000 + 100 % × $85,680 = $799,680 | $1,000 Logo Retention | RVP (6 % > AE limit) | [Account data], [GLB-COMP-006], [LATAM-REN-401] |
+| Uplift 10 % (with FX/inflation justification) | $1,570,800 (base + $142,800) | 3 % × $1,428,000 + 8 % × $142,800 = $54,264 | 50 % × $1,428,000 + 100 % × $142,800 = $856,800 | $1,000 Logo Retention | RVP (10 % ≤ RVP limit) | [Account data], [GLB-COMP-006], [LATAM-REN-401] |
+| Renewal with Commerce Fiesta discount (30 % off Product H) | $1,275,000 (‑$153,000) | 3 % × $1,275,000 = $38,250 | 50 % × $1,275,000 = $637,500 | $1,000 Logo Retention | AE (no uplift) | [Account data], [LATAM-PROMO-402], [GLB-COMP-006] |
+| Cross‑sell Product B (estimate) | $1,077,281 | 8 % × $1,077,281 = $86,182.48 | 100 % × $1,077,281 = $1,077,281 | – | RVP (5 % AE limit exceeded) | [Account data], [GLB-COMP-006] |
+| Cross‑sell Product C (estimate) | $330,336 | 8 % × $330,336 = $26,426.88 | 100 % × $330,336 = $330,336 | – | RVP | [Account data], [GLB-COMP-006] |
+| Cross‑sell Product E (estimate) | $228,721 | 8 % × $228,721 = $18,297.68 | 100 % × $228,721 = $228,721 | – | RVP | [Account data], [GLB-COMP-006] |
+
+## 7. Recommendation and next 3 actions
+- **Register with the Save Desk by 2026-11-16** to satisfy the Red‑health play requirement and keep the Logo Retention SPIFF eligible [ GLB-HEALTH-007 ].  
+- **Submit the 60‑day renewal notice (flat renewal with Commerce Fiesta discount)** before 2026-11-16 to stay within the notice period and capture the 30 % product‑H discount [ LATAM-REN-401 ], [ LATAM-PROMO-402 ].  
+- **Prepare a value‑focused proposal** that (a) highlights the AI Agents Pilot (free 3‑month pilot) [ LATAM-PROMO-402 ], (b) proposes modest seat expansion for Product A to improve utilization, and (c) positions cross‑sell of Product B as a future phase after health improves (requires RVP approval).  
+
+These steps address the primary risks (health score, sponsor change, open P1 cases) while staying within all LATAM policy guardrails.",1,with_ou_filter
+Q03,account_policy,AMER,"What uplift can I put on Harbor City Transit Authority's renewal, and when must I send notice?",1,1,1,1,1,18.9,2,"Provides the 3% uplift cap and correct notice date of Dec 1, 2026, matching the expected answer","All facts, dates, caps, and promotion eligibility are present in the account data or documents.","**Uplift:** You may apply a price uplift of up to **3 %** on the renewal.  
+**Notice deadline:** The price‑increase notice must be sent to the customer by **2026-12-01** (120 days before the contract end) [AMER-REN-101].
+
+**Also relevant for this account**
+
+- Notice period is 120 days for US Public‑Sector contracts; the notice date is 2026-12-01 (45 days from today) [AMER-REN-101].  
+- Uplift cap is limited to **3 %** for US Public‑Sector accounts, overriding the global default [AMER-REN-101].  
+- No DPA or GSTIN requirements apply to this OU/country [Account data].  
+- Health play is Green (87) – renewal is likely, focus on expansion [GLB-HEALTH-007].  
+- AE is at 74 % of quota, so only standard commission rates apply (no accelerator) [GLB-COMP-006].  
+- Eligible promotions: **Renew Early** (eligible) [AMER-PROG-103]; **AI Agents Accelerate** (eligible) [AMER-PROMO-102].
+
+## Promotions and programs: Harbor City Transit Authority (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Renew Early | SPIFF/program | yes | Renewal can be closed‑won at least 60 days before contract end (by 2027‑01‑30); no segment restriction. | [AMER-PROG-103] |
+| Multi-Year Kicker | SPIFF/program | if 3-year renewal | Extra commission applies only to 3‑year renewals; term not indicated for this account. | [AMER-PROG-103] |
+| Consumption True-Up SPIFF | SPIFF/program | if overage converted | Account owns consumption product I (within E‑J), but there is no overage to convert into a true‑up at renewal. | [AMER-PROG-103] |
+| AI Attach SPIFF | SPIFF/program | if Product F attached | Requires attach of Product F with ≥500,000 credits per year; account does not have Product F. | [AMER-PROG-103] |
+| AI Agents Accelerate | promotion | yes | Enterprise segment, owns Product B, within validity Aug 1 2026 – Jan 31 2027; meets all conditions. | [AMER-PROMO-102] |
+| Analytics Healthcare Bundle | promotion | no | Promotion limited to Commercial‑segment Healthcare customers; account is Public Sector. | [AMER-PROMO-102] |
+| Summer Chat Deal (EXPIRED) | promotion | no | Promotion expired (ended Jul 31 2026). | [AMER-PROMO-102] |
+",1,with_ou_filter
+Q04,account_policy,South Asia,Can I book Saffron Retail's renewal today if they sign?,1,1,0,1,1,24.8,2,Answer omits the required detail that India adds 18% GST,"All facts, dates, percentages, and amounts are present in the account data or cited documents.","## 1. Blockers and deadlines
+- **GSTIN missing** – Indian contracts require the customer’s GSTIN on the order form before any booking can be recorded [SA-REN-301].  
+- **Order form must be signed** before the renewal can be booked [GLB-ACV-002].  
+- **Notice period** – South Asia requires a 60‑day notice (by 2026-11-01). Signing today meets the notice requirement early, but the notice date must still be documented [SA-REN-301].  
+- **Renew Early program deadline** – to earn the 110 % quota credit you must close‑won by 2026-11-16 [SA-PROG-303].
+
+## 4. Policy guardrails
+- **Uplift cap:** up to **8 %** on a 1‑year renewal [SA-REN-301].  
+- **Approvals:** AE can approve up‑to 7 % of current ACV; RVP up‑to 15 %; Deal Desk up‑to 25 % [SA-REN-301].  
+- **Payment terms:** Net 45 [SA-REN-301].  
+- **Commission rates (FY27):** renewal flat 3 %; renewal uplift 8 % [GLB-COMP-006].  
+- **Quota retirement:** flat renewal 50 % of ACV; uplift 100 % of uplift amount [GLB-COMP-006].  
+- **Legal:** GSTIN must appear on the order form before booking [SA-REN-301].
+
+## 5. Opportunities
+- **Product A seat expansion** – +10 % seats = **26 seats** → extra ACV **$28,080** (expansion‑ready) [Account data].  
+- **Cross‑sell estimates** (peer‑based, not quoted):  
+  - Product E (CDP) – **$298,544** [Account data]  
+  - Product C (Analytics & BI) – **$31,764** [Account data]  
+  - Product I (Customer Portal) – **$352,369** [Account data]  
+- **Renew Early program** – eligible if signed by 2026-11-16 (adds 110 % quota credit) [SA-PROG-303].  
+- **Seat Expansion Accelerator** – not eligible (growth <15 %) [SA-PROG-303].  
+
+## 6. Scenarios  
+
+| Scenario | ACV | Commission | Quota retired | SPIFFs | Approvals | Source |
+|---|---|---|---|---|---|---|
+| Renewal – flat only | $475,200 | 3 % × $475,200 = $14,256 | 50 % × $475,200 = $237,600 | none | none (no uplift) | [GLB-COMP-006] |
+| Renewal + Product A expansion (+10 %) | $503,280 ( $475,200 + $28,080 ) | 3 % × $475,200 = $14,256 + 8 % × $28,080 = $2,246.40 → **$16,502.40** | 50 % × $475,200 = $237,600 + 100 % × $28,080 = $28,080 → **$265,680** | none (Seat Expansion Accelerator ineligible) | AE approval (5.9 % uplift < 7 % AE limit) [SA-REN-301] | [GLB-COMP-006]; [SA-REN-301] |
+| Cross‑sell – Product E (estimate) | $298,544 (estimate) | 8 % × $298,544 = $23,883.52 | 100 % × $298,544 = $298,544 | none | none (no discount shown) | [Account data]; [GLB-COMP-006] |
+
+## 7. Recommendation and next 3 actions
+1. **Secure the GSTIN** from Saffron Retail and add it to the renewal order form (legal blocker) [SA-REN-301].  
+2. **Prepare the renewal package** with the current ACV plus the proposed Product A seat expansion (to stay within the 8 % uplift cap) and have the AE sign off (AE approval ≤ 7 %) [SA-REN-301].  
+3. **Target a signing date on or before 2026-11-16** to capture the “Renew Early” program’s 110 % quota credit [SA-PROG-303]; include the cross‑sell estimates in the proposal for future pipeline.
+
+## Promotions and programs: Saffron Retail Pvt Ltd (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Seat Expansion Accelerator | SPIFF/program | no | Renewal ACV would need to grow >15% over current ACV ($475,200). Projected expansion (e.g., +10% seats on Product A = $28,080) yields only ~5.9% increase, below the 15% threshold. | [SA-PROG-303] |
+| Renew Early | SPIFF/program | if 2026-11-16 | Renewals must be closed‑won at least 45 days before contract end (2026-12-31). The 45‑day deadline is 2026-11-16. Eligibility is met only if the renewal is signed by that date. | [SA-PROG-303] |
+| Partner Co-sell Bonus | SPIFF/program | no | Bonus applies only when a registered systems‑integrator partner is involved in the renewal. No partner involvement is indicated for this account. | [SA-PROG-303] |
+| SMB Growth Pack | promotion | no | Offer is limited to the SMB segment. The account is in the Commercial segment, so it does not qualify. | [SA-PROMO-302] |
+| Analytics Starter | promotion | no | Eligibility is restricted to Technology & IT Services or Financial Services (BFSI) customers. The account’s industry is Retail & CPG, which is not covered. | [SA-PROMO-302] |
+",1,with_ou_filter
+Q05,calculation,AMER,"Summit Ridge Software is over its Product E commitment. If I true it up at renewal, how much ACV, commission, quota and SPIFF is that?",1,1,1,1,1,22.3,2,"All key figures (ACV $29,932, commission $3,143 with accelerator, quota $29,932, $1,000 SPIFF) match the expected answer","All facts, numbers, and rules are present in the account data or documents","True‑up of Product E adds **$29,932 ACV**. At the 7 % expansion commission rate, accelerated by **1.5×** (AE at 112 % quota), the commission is **$3,143** (7 % × $29,932 = $2,095 → × 1.5). The full ACV **$29,932** retires quota, and the **Consumption True‑Up SPIFF** provides an additional **$1,000** payout.  
+
+**Also relevant for this account**
+
+- Notice period is 90 days; the notice date is 2026-11-30 (44 days from today) → [AMER-REN-101]  
+- Uplift cap for a 1‑year renewal is up to **7 %** → [AMER-REN-101]  
+- No DPA or GSTIN requirement applies to this US account → [Account data]  
+- Approval limits: AE up to 5 % of current ACV, RVP up to 10 %, Deal Desk up to 20 % → [AMER-REN-101]  
+- Eligible SPIFF: **$1,000** for the Product E true‑up (Consumption True‑Up SPIFF) → [AMER-PROG-103]  
+- AE accelerator: incremental bookings paid at **1.5×** the commission rate (112 % quota attainment) → [GLB-COMP-006]
+
+## Promotions and programs: Summit Ridge Software (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Renew Early | SPIFF/program | if closed by 2026-12-30 | Renewal must be closed-won at least 60 days before contract end (by 2026-12-30). Today is 2026-10-17, so eligibility is conditional on closing by that date. | [AMER-PROG-103] |
+| Multi-Year Kicker | SPIFF/program | no | Only applies to 3‑year renewal terms; the account's renewal is for 1 year, so not eligible. | [AMER-PROG-103] |
+| Consumption True-Up SPIFF | SPIFF/program | yes | Account has overage on Product E (consumption > committed) and will have a true‑up at renewal, qualifying for the $1,000 SPIFF. Product J has no overage, so only Product E qualifies. | [AMER-PROG-103] |
+| AI Attach SPIFF | SPIFF/program | no | Requires an attach of Product F with a minimum commitment of 500,000 credits per year; the account does not own Product F, so not eligible. | [AMER-PROG-103] |
+| AI Agents Accelerate | promotion | if added at renewal | Enterprise segment and owns Product A and Product B, meeting segment and ownership criteria; however the discount applies only if Product F is added at renewal, which is not currently planned. | [AMER-PROMO-102] |
+| Analytics Healthcare Bundle | promotion | no | Eligibility limited to Commercial‑segment Healthcare customers; the account is Enterprise in Technology & IT Services, so not eligible. | [AMER-PROMO-102] |
+| Summer Chat Deal (EXPIRED) | promotion | no | Promotion expired on July 31 2026; current date is after expiration, so not eligible. | [AMER-PROMO-102] |
+
+- Consumption True-Up SPIFF provides $1,000 for each consumption product (E–J) with overage true‑up; this targets Product E (OVERAGE) owned by the account. [AMER-PROG-103]",1,with_ou_filter
+Q06,account_policy,AMER,Prairie Fresh Grocers barely uses Product G. Can I cut it at renewal?,1,1,0,1,1,17.5,2,"Missing several key facts (adoption plan, attrition deduction, $8,280 loss, 15% threshold) and utilization numbers do not match expected values",All facts and rules are present in the account data or documents,"**Yes – you can right‑size Product G at renewal.**  
+The product’s utilization has been below 50 % for six consecutive months (21.9 % last 3 months, 27.2 % prior 3 months) → right‑sizing is permitted, and you may reduce the committed message volume by up to 20 % with only AE approval [GLB-ATTR-003].  
+
+**Also relevant for this account**
+
+- **Notice date:** 90‑day notice was due 2026-09-16 and has **passed**; any uplift would need written agreement, but reductions are still allowed [AMER-REN-101].  
+- **Uplift cap:** up to 7 % for a 1‑year renewal (not needed for a cut) [AMER-REN-101].  
+- **Legal:** No DPA or GSTIN requirement for U.S. customers [Account data].  
+- **Health play:** Amber (66) – focus on fixing the weak driver before the proposal [GLB-HEALTH-007].  
+- **AE accelerator:** At 88 % quota attainment, only standard commission rates apply (no accelerator) [GLB-COMP-006].  
+- **Approvals:** AE can approve reductions **up to 20 %** of the current commitment; larger cuts require RVP sign‑off [AMER-REN-101] & [GLB-ATTR-003].
+
+## Promotions and programs: Prairie Fresh Grocers (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Renew Early | SPIFF/program | if closed-won renewal by 2026-10-16 (60 days before contract end) | Renew Early requires the renewal to be closed‑won at least 60 days before contract end; the 60‑day deadline was 2026-10-16 and today is 2026-10-17, so the window has passed. | [AMER-PROG-103] |
+| Multi-Year Kicker | SPIFF/program | if 3-year renewal signed | Kicker applies only to 3‑year renewals; the account currently has a 1‑year contract. | [AMER-PROG-103] |
+| Consumption True-Up SPIFF | SPIFF/program | if overage on a consumption product is converted into a committed true‑up at renewal | Account owns Product G (consumption, SHELFWARE) with no overage; the SPIFF is triggered only when an overage is converted to a true‑up. | [AMER-PROG-103] |
+| AI Attach SPIFF | SPIFF/program | no | Requires an attach of Product F; the account does not own Product F. | [AMER-PROG-103] |
+| AI Agents Accelerate | promotion | no | Promotion limited to Enterprise and Strategic segments; the account is Commercial (though it does own Product A, the segment requirement fails). | [AMER-PROMO-102] |
+| Analytics Healthcare Bundle | promotion | no | Eligible only for Commercial‑segment Healthcare customers; the account is Retail & CPG, not Healthcare. | [AMER-PROMO-102] |
+| Summer Chat Deal (EXPIRED) | promotion | no | Promotion expired on July 31 2026; current date is October 17 2026. | [AMER-PROMO-102] |
+
+- No promotion for Product G (consumption, SHELFWARE) in AMER. [AMER-PROMO-102]",1,with_ou_filter
+Q07,calculation,ANZ,How much quota will I retire if Canberra Digital Services Agency renews flat?,1,1,0,1,1,19.2,2,Missing the required in-country data residency condition for the government customer,"All facts, numbers, and rules cited are present in the account data or documents","**Quota retired on a flat renewal:**  
+You will retire **$4,423,680** of quota (120 % × $3,686,400) [ANZ-PROG-503] [Account data].
+
+**Also relevant for this account**
+
+- Notice period is 90 days; the required notice date is 2027-01-30 (upcoming) [ANZ-REN-501].  
+- Uplift cap is up to 4 % per year for multi‑year renewals; not needed for a flat renewal [ANZ-REN-501].  
+- Approvals: AE can approve up to 5 % uplift, RVP up to 10 %, Deal Desk up to 18 % [ANZ-REN-501].  
+- No DPA or GSTIN requirement for ANZ public‑sector customers [Account data].  
+- Eligible promotion: Gov Ready Service (20 % off Product B) is active [ANZ-PROMO-502].  
+- AE accelerator: at 128 % quota attainment, incremental bookings are paid at 2× the commission rate [GLB-COMP-006].
+
+## Promotions and programs: Canberra Digital Services Agency (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| ANZ Quota Booster | SPIFF/program | yes | Account is Strategic; renewal ACV qualifies for the 120% quota retirement program. | [ANZ-PROG-503] |
+| AI Attach SPIFF | SPIFF/program | no | Account does not own Product F, so the required attach cannot be met. | [ANZ-PROG-503] |
+| Note | SPIFF/program | no | Renew Early program is not run in ANZ for FY27 as stated in the document. | [ANZ-PROG-503] |
+| Gov Ready Service | promotion | yes | Public Sector customer in Australia; offer period (2026‑08‑01 to 2027‑01‑31) includes today (2026‑10‑17). | [ANZ-PROMO-502] |
+| AI Agents Accelerate ANZ | promotion | if added at renewal | Strategic segment and owns Product A and Product B, meeting the ownership condition; eligibility depends on attaching Product F at renewal. | [ANZ-PROMO-502] |
+
+- ANZ does not run a Renew Early program in FY27. [ANZ-PROG-503]",1,with_ou_filter
+Q08,promotions,EMEA,What promotions can I offer Thames Valley Building Society?,1,1,1,1,1,11.7,1,"Assistant includes Service Switch 25% off Product B, notes Portal for Public Services not eligible, no Product F promo, and mentions Cross‑Sell Champion, matching expected answer.","All facts, dates, percentages, and rules are supported by the provided account data and documents.","You can offer the **Service Switch** promotion – 25 % off the first year of Product B (Service Desk) when added at renewal. No other promotions are currently eligible for Thames Valley Building Society.  
+
+**Also relevant for this account**
+
+- Notice period is 90 days; the required notice date is 2026-11-30 (44 days from today) [EMEA-REN-201].  
+- Uplift cap is up to 5 % for a 1‑year contract (no inflation‑indexation clause) [EMEA-REN-201].  
+- Approval limits: AE up to 5 % uplift, RVP up to 12 %, Deal Desk up to 20 % off current ACV [EMEA-REN-201].  
+- Data Protection Agreement v4.2 is already signed, so there is no DPA blocker [EMEA-REN-201].  
+- Eligible SPIFFs: **Cross‑Sell Champion** (200 % of first‑year ACV) and **Renew Early** (105 % of renewal ACV) can be claimed if the corresponding deals close [EMEA-PROG-203].  
+- EMEA does **not** run an AI Attach or Consumption True‑Up SPIFF in FY27, and there is no Product F promotion [EMEA-PROG-203] [EMEA-PROMO-202].  
+
+(AE is at 81 % of FY27 quota, so standard commission rates apply with no accelerator) [GLB-COMP-006].
+
+## Promotions and programs: Thames Valley Building Society (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Cross-Sell Champion | SPIFF/program | if added at renewal | Customer does not own the product; program applies to any new product added at renewal; no other restrictions. | [EMEA-PROG-203] |
+| Renew Early | SPIFF/program | if closed by 2026-12-30 | Renewal must be closed‑won at least 60 days before contract end (2026-12-30); today is before that date. | [EMEA-PROG-203] |
+| Note | SPIFF/program | no | EMEA does not run an AI Attach SPIFF or a Consumption True‑Up SPIFF in FY27. | [EMEA-PROG-203] |
+| Service Switch | promotion | yes | Financial Services industry, does not own Product B, and today (2026-10-17) falls within the valid period Aug 1 – Nov 30 2026. | [EMEA-PROMO-202] |
+| Portal for Public Services | promotion | no | Eligibility limited to Public Sector and Healthcare customers; account is Financial Services. | [EMEA-PROMO-202] |
+| Note | promotion | no | There is no Product F (AI Agents) promotion in EMEA in FY27 H2. | [EMEA-PROMO-202] |
+
+- EMEA does not run an AI Attach SPIFF or a Consumption True-Up SPIFF in FY27. [EMEA-PROG-203]
+- There is no Product F (AI Agents) promotion in EMEA in FY27 H2. [EMEA-PROMO-202]",1,with_ou_filter
+Q09,comp,AMER,Jordan Ellis is at 112% of quota. How is commission paid on his next renewals?,1,1,1,0,1,22.3,3,Includes the correct accelerator rule: 100-125% attainment pays incremental bookings at 1.5x the standard rate.,"Incorrect notice due date calculation for Lakeshore and Granite (claimed 2026-09-01, but 90‑day notice from 2026-12-31 is around 2026-10-02, not supported)","## 1. Blockers and deadlines
+- **Notice period missed** – Standard AMER notice is 90 days before contract end. Lakeshore Mutual Insurance and Granite Peak Consulting end 2026-12-31 (75 days left) → notice was due ≈ 2026-09-01, which is past [AMER-REN-101].  
+- **Notice still open** – Bluegrass Health Partners and Summit Ridge Software end 2027-02-28 (134 days left) → notice must be sent by ≈ 2026-11-30; still time to meet the 90‑day deadline [AMER-REN-101].  
+
+## 4. Policy guardrails
+- **Uplift caps** – 1‑year renewals: max 7 %; multi‑year: max 5 % per year [AMER-REN-101].  
+- **Renew Early program** – If a renewal is closed ≥60 days before end, quota retirement is **110 % of total renewal ACV** (instead of the standard 50 % flat / 100 % uplift) [AMER-PROG-103].  
+- **Commission rates (global)** – Renewal flat 3 %; renewal uplift 8 %; expansion/true‑up 7 % [GLB-COMP-006].  
+- **Accelerator** – Attainment 112 % falls in the 100-125 % band; incremental bookings are paid at **1.5 ×** the base commission rate [GLB-COMP-006].  
+- **SPIFFs** –  
+  * Consumption True‑Up SPIFF: **$1,000** per product E-J with overage [AMER-PROG-103].  
+  * AI Attach SPIFF: **$1,500** per Product F attach (≥500k credits/yr), stackable with Renew Early [AMER-PROG-103].  
+- **Promotions** – AI Agents Accelerate: 30 % off first‑year Product F when the customer already owns Product A or B; Enterprise/Strategic eligible; valid Aug 1 2026 – Jan 31 2027; not stackable [AMER-PROMO-102].  
+
+## 5. Opportunities
+| Opportunity | Estimate | Source |
+|---|---|---|
+| **Consumption true‑up** for Summit Ridge (Product E overage 116.7 %) | not estimated (true‑up amount not provided) | [AMER-PROG-103] |
+| **AI Attach SPIFF** on Product F for Lakeshore (has F) | $1,500 per attach (assume 1 attach) | [AMER-PROG-103] |
+| **AI Attach SPIFF** on Product F for Bluegrass (has F) | $1,500 per attach | [AMER-PROG-103] |
+| **AI Agents Accelerate** discount for Lakeshore, Granite, Bluegrass, Summit (all own A) | 30 % off first‑year F (if added) | [AMER-PROMO-102] |
+| **Renew Early** – aim to close Lakeshore & Granite ≥60 days before 12/31 to get 110 % quota credit | – | [AMER-PROG-103] |
+| **Expansion‑ready seats** – Products A, B, F, etc. are “expansion‑ready” → potential upsell (no numeric estimate) | not estimated | [Account data] |
+
+## 6. Scenarios
+| Scenario | ACV (FY27) | Commission (pre‑accelerator) | Commission (post‑accelerator) | Quota retired | SPIFFs / Promotions | Approvals needed | Source |
+|---|---|---|---|---|---|---|---|
+| **Lakeshore renewal (1‑yr)** – flat $6,454,000, max uplift 7 % ($451,780) | $6,905,780 | Flat: 3 % × 6,454,000 = $193,620  <br>Uplift: 8 % × 451,780 = $36,142 | ($193,620 + $36,142) × 1.5 = **$344,643** | If closed ≥60 d early → 110 % × 6,905,780 = $7,596,358  <br>Otherwise flat 50 % × 6,454,000 + uplift 100 % × 451,780 = $3,678,780 | AI Attach SPIFF $1,500; AI Agents Accelerate 30 % off F (if added) | AE up to 5 % uplift (within 7 % cap) – no higher‑level sign‑off required [AMER-REN-101] | [GLB-COMP-006] / [AMER-PROG-103] / [AMER-REN-101] |
+| **Summit Ridge true‑up (expansion)** – Product E overage true‑up (amount not given) | not estimated | Expansion commission 7 % × true‑up ACV (unknown) | True‑up ACV added to quota 100 % (standard) | Consumption True‑Up SPIFF $1,000 per product E (overage) | No uplift >7 % → no Deal Desk needed [AMER-REN-101] | [GLB-COMP-006] / [AMER-PROG-103] |
+
+*(Other accounts follow similar patterns; calculations use the same rates and caps.)*
+
+## 7. Recommendation and next 3 actions
+1. **Submit early‑renewal proposals for Lakeshore and Granite** to capture the 110 % quota credit before the 60‑day window closes [AMER-PROG-103].  
+2. **Add Product F to Lakeshore and Bluegrass** (if not already committed) to earn the $1,500 AI Attach SPIFF and qualify for the 30 % AI Agents Accelerate discount [AMER-PROG-103] / [AMER-PROMO-102].  
+3. **Document the consumption overage for Summit Ridge** and request the $1,000 true‑up SPIFF per product E; include the true‑up amount in the renewal booking to earn the 7 % expansion commission [AMER-PROG-103] / [GLB-COMP-006].",1,with_ou_filter
+Q10,benchmark,South Asia,Which products consume the most in South Asia right now?,1,1,1,1,1,3.8,1,"Assistant includes all three key facts: I Customer Portal ~90% utilization, fastest growth, and E Customer Data Platform most widely owned.",All statements are directly supported by SA-BENCH-304,"The highest‑consuming product in South Asia right now is **Product I – Customer Portal**, which is running at **90 % average utilization**[SA-BENCH-304].
+
+**Also relevant for this region**
+- Product I (Customer Portal) is also the **fastest‑growing** consumption, up **+3 %** versus the prior quarter[SA-BENCH-304].  
+- Products that are **in overage** are flagged as true‑up candidates[SA-BENCH-304].  
+- Products with **utilization below 50 %** are considered shelfware and pose attrition risk[SA-BENCH-304].  
+- The most widely owned product is **Product E – Customer Data Platform**, though its utilization isn’t highlighted as a top consumer[SA-BENCH-304].",1,with_ou_filter
+Q11,negative,LATAM,Does LATAM have a Renew Early program?,1,1,0,1,1,3.8,1,Missing the Multi-Year Kicker availability mentioned in the expected answer,All facts are directly supported by the provided documents,"**No, LATAM does not have a Renew Early program in FY 27** – the LATAM policy explicitly states that “LATAM does **not** run a Renew Early program in FY27”[LATAM-PROG-403].  
+
+**Also relevant for this account**
+
+- **Notice period:** Standard 60‑day notice required for renewals[LATAM-REN-401].  
+- **Uplift caps:** 1‑year renewals limited to 10 % with written FX/inflation justification, otherwise 6 %; multi‑year renewals capped at 6 % per year[LATAM-REN-401].  
+- **Approvals:** AE can approve up to 5 % uplift, RVP up to 10 %, Deal Desk up to 20 % (global matrix applies)[LATAM-REN-401].  
+- **Currency & invoicing:** Contracts in USD; invoicing in BRL or MXN allowed with FX clause; Brazil requires a Nota Fiscal; Argentina offshore USD payments need Finance review[LATAM-REN-401].  
+- **Eligible promotions:** AI Agents Pilot (free 3‑month pilot for accounts ≥ $100 k ACV owning Product A or B)[LATAM-PROMO-402]; Commerce Fiesta (30 % off Product H fee for Retail/CPG)[LATAM-PROMO-402].  
+- **SPIFFs:** $1,000 Logo Retention SPIFF for at‑risk accounts that renew flat or higher[LATAM-PROG-403].",1,with_ou_filter
+Q12,freshness,AMER,Can I offer Granite Peak Consulting the Summer Chat Deal on Product D?,1,1,1,1,1,11.5,1,"The answer states the deal cannot be offered and correctly notes it expired on July 31, 2026.","All facts, dates, percentages, and rules cited are present in the account data or documents","**No.** The Summer Chat Deal for Product D expired on 31 Jul 2026, so it cannot be offered to Granite Peak Consulting. [AMER-PROMO-102]
+
+**Also relevant for this account**
+
+- Notice period is 90 days; the required notice date was 02 Oct 2026 and is **PASSED**. [AMER-REN-101]  
+- Uplift cap for a 1‑year renewal is **up to 7 %** of the current ACV. [AMER-REN-101]  
+- No DPA or GSTIN invoicing requirement applies to this Canadian account. [Account data]  
+- Health play is **Amber (64)** – the weak driver must be fixed before the proposal. [GLB-HEALTH-007]  
+- AE accelerator applies: at **112 %** quota attainment, incremental bookings earn **1.5 ×** the standard commission rate. [GLB-COMP-006]  
+- Approvals: AE can approve up to 5 % discount; RVP up to 10 %; Deal Desk up to 20 % off current ACV. [AMER-REN-101]
+
+## Promotions and programs: Granite Peak Consulting (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Renew Early | SPIFF/program | yes | Renewal can be closed‑won >60 days before contract end (today 75 days before 2026‑12‑31), meeting the 60‑day rule. | [AMER-PROG-103] |
+| Multi-Year Kicker | SPIFF/program | no | Only applies to 3‑year renewals; account currently on a 1‑year contract with no indication of a 3‑year term. | [AMER-PROG-103] |
+| Consumption True-Up SPIFF | SPIFF/program | no | Account does not own any consumption products in bands E‑J, so no overage conversion to true‑up. | [AMER-PROG-103] |
+| AI Attach SPIFF | SPIFF/program | no | Requires Product F attach; account does not have Product F. | [AMER-PROG-103] |
+| AI Agents Accelerate | promotion | yes | Strategic segment (eligible), owns Product A (or B), and promotion is valid Aug 1 2026‑Jan 31 2027. | [AMER-PROMO-102] |
+| Analytics Healthcare Bundle | promotion | no | Only for Commercial‑segment Healthcare customers; account is Strategic‑segment Professional Services. | [AMER-PROMO-102] |
+| Summer Chat Deal (EXPIRED) | promotion | no | Promotion expired on Jul 31 2026; also not applicable after expiration. | [AMER-PROMO-102] |
+",1,with_ou_filter
+Q13,refusal,UNKNOWN,Build a renewal plan for Globex Corporation.,1,1,1,1,1,0.0,0,"The answer refuses and asks to check the account name, matching the expected response.",Refused in code: account not in the customer table.,I can't find **Globex Corporation** in Cloudpaw's records. Please check the account name and try again.,1,with_ou_filter
+Q14,refusal,EMEA,Forecast total EMEA renewal bookings for Q4.,1,1,1,1,1,3.3,1,"The assistant correctly refused, indicating no forecasting data available.",Answer is a permissible refusal statement,I couldn't find that in Cloudpaw's renewal documents.,1,with_ou_filter
+Q15,account_policy,EMEA,When is the notice deadline for Rheinwerk Maschinenbau GmbH?,1,1,1,1,1,10.7,1,"Provides the exact notice deadline of Dec 31, 2026 as required","All facts, dates, and rules are present in the account data or cited documents","The notice deadline for Rheinwerk Maschinenbau GmbH is **31 December 2026** [EMEA-REN-201].
+
+**Also relevant for this account**
+
+- Notice date status: upcoming (75 days from today) [EMEA-REN-201]  
+- Uplift cap: up to 5 % (or 6 % if an inflation‑indexation clause exists) [EMEA-REN-201]  
+- Approval limits: AE ≤ 5 %, RVP ≤ 12 %, Deal Desk ≤ 20 % off current ACV [EMEA-REN-201]  
+- Legal: DPA v4.2 already signed – no DPA blocker [EMEA-REN-201]  
+- Eligible SPIFFs/programs: Cross‑Sell Champion (eligible) and Renew Early (eligible if closed‑won by 1 Mar 2027) [EMEA-PROG-203]; AI Attach and Consumption True‑Up SPIFFs are not run in EMEA [EMEA-PROG-203]  
+- AE accelerator: 96 % quota attainment → standard commission rates, no accelerator [GLB-COMP-006]
+
+## Promotions and programs: Rheinwerk Maschinenbau GmbH (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Cross-Sell Champion | SPIFF/program | yes | Customer can add any product they do not currently own at renewal; no segment, industry, or product‑ownership restrictions; renewal is upcoming. | [EMEA-PROG-203] |
+| Renew Early | SPIFF/program | if renewal closed-won by 2027-03-01 | Requires renewal to be closed‑won at least 60 days before contract end (2027-03-01). Not yet closed, so eligibility is conditional on that action. | [EMEA-PROG-203] |
+| Note | SPIFF/program | no | EMEA does not run an AI Attach SPIFF or a Consumption True‑Up SPIFF in FY27. | [EMEA-PROG-203] |
+| Service Switch | promotion | no | Eligibility limited to Financial Services customers; account is Manufacturing. Date window (Aug 1 – Nov 30 2026) is valid, but segment mismatch makes it ineligible. | [EMEA-PROMO-202] |
+| Portal for Public Services | promotion | no | Eligibility limited to Public Sector or Healthcare customers; account is Manufacturing. Date window (Aug 1 2026 – Jan 31 2027) is valid, but industry/segment mismatch makes it ineligible. | [EMEA-PROMO-202] |
+| Note | promotion | no | There is no Product F (AI Agents) promotion in EMEA in FY27 H2. | [EMEA-PROMO-202] |
+
+- EMEA does not run an AI Attach SPIFF or a Consumption True-Up SPIFF in FY27. [EMEA-PROG-203]
+- There is no Product F (AI Agents) promotion in EMEA in FY27 H2. [EMEA-PROMO-202]",1,with_ou_filter
+Q16,calculation,AMER,"If Lakeshore Mutual Insurance signs a flat 3-year renewal, what does the Multi-Year Kicker pay?",1,1,0,1,1,14.7,1,Provides correct amount but omits the required RVP approval rule included in the expected answer,"All facts, numbers, and rules are present in the account data or documents","**Answer:**  
+The Multi‑Year Kicker adds **1.5 % of the ACV for years 2 and 3** of a 3‑year renewal.  
+Lakeshore’s current ACV is $6,454,000 per year, so years 2 + 3 equal $12,908,000.  
+1.5 % × $12,908,000 = **$193,620** of extra commission payable at signing [AMER-PROG-103] [Account data].
+
+**Also relevant for this account**
+
+- Notice period is 90 days; the required notice date (2026-10-02) has **passed** [AMER-REN-101].  
+- Uplift cap is **up to 5 % per year** for multi‑year renewals [AMER-REN-101].  
+- No DPA or GSTIN requirements apply to this US account [Account data].  
+- Health play is Green (95) – renewal likely, focus on expansion [GLB-HEALTH-007].  
+- AE accelerator: incremental bookings are paid at **1.5 ×** the commission rate (attainment 112 %) [GLB-COMP-006].  
+- Eligible promotions: **Renew Early** (close‑won ≥60 days before end) [AMER-PROG-103]; **AI Attach SPIFF** (Product F attach) [AMER-PROG-103]; **AI Agents Accelerate** (30 % off first year of Product F) [AMER-PROMO-102]; **Multi‑Year Kicker** (requires 3‑year term) [AMER-PROG-103].
+
+## Promotions and programs: Lakeshore Mutual Insurance (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Renew Early | SPIFF/program | yes | Renewal can be closed‑won by 2026‑11‑01 (60 days before contract end); today 2026‑10‑17 is before that deadline. No segment or product restrictions. | [AMER-PROG-103] |
+| Multi-Year Kicker | SPIFF/program | if renewal term = 3 years | Extra 1.5% commission applies only to a 3‑year renewal. Account currently on a 3‑year contract but renewal term not yet defined. | [AMER-PROG-103] |
+| Consumption True-Up SPIFF | SPIFF/program | no | No overage on consumption products E or F to convert into a true‑up at renewal; both are under‑utilized relative to committed credits. | [AMER-PROG-103] |
+| AI Attach SPIFF | SPIFF/program | yes | Product F is owned with a commitment of 6,000,000 credits (≥500,000 required). Strategic segment; renewal is within FY27; stackable with Renew Early. | [AMER-PROG-103] |
+| AI Agents Accelerate | promotion | yes | Strategic segment; account owns Product A and B; offer valid 1 Aug 2026 – 31 Jan 2027; today 17 Oct 2026 falls within range. Not stackable but no conflict. | [AMER-PROMO-102] |
+| Analytics Healthcare Bundle | promotion | no | Offer limited to Commercial‑segment Healthcare customers; account is Strategic Financial Services, so ineligible. | [AMER-PROMO-102] |
+| Summer Chat Deal (EXPIRED) | promotion | no | Validity period ended 31 Jul 2026; today is after that date. Document explicitly marks the deal as ended and not to quote. | [AMER-PROMO-102] |
+
+- 25% off Product D (Team Chat). Valid May 1 – Jul 31, 2026. Ended. Do not quote. [AMER-PROMO-102]",1,with_ou_filter
+Q17,account_policy,LATAM,Can I put a 10% uplift on Rio Verde Bancorp?,1,1,1,1,1,19.8,2,"Provides the 10% uplift condition with written justification, notes default 6% otherwise, and cites the 60‑day notice date of Apr 1 2027","All facts, numbers, and rules are present in the provided account data and documents.","## 1. Blockers and deadlines
+- No legal blockers (no DPA or GSTIN required) [Account data].  
+- Notice period is 60 days; the notice date (2027-04-01) is still 166 days away, so the renewal can still be negotiated [LATAM-REN-401].
+
+## 4. Policy guardrails
+- **Uplift cap:** 1‑year renewals may increase up to **6 %** automatically; a **10 %** uplift is allowed **only with a written FX or inflation justification** attached to the opportunity [LATAM-REN-401].  
+- **Approval limits:** AE can approve up to **5 %** uplift; anything above 5 % (including 6 % or 10 %) requires **RVP approval** (up to 10 %) [LATAM-REN-401].  
+- **Commission on uplift:** 8 % of the uplift ACV [GLB-COMP-006].  
+- **Quota retirement on uplift:** 100 % of the uplift ACV retires quota [GLB-COMP-006].  
+
+## 5. Opportunities
+- **Product B expansion:** +10 % seats = 180 seats × $770 = **$138,600** extra ACV (estimate) [Account data].  
+- **Cross‑sell estimates:**  
+  - Product H (Commerce) – estimated ACV **$19,342,492** [Account data]  
+  - Product C (Analytics & BI) – estimated ACV **$4,940,862** [Account data]  
+  - Product J (Integration Platform) – estimated ACV **$1,355,596** [Account data]  
+- **AI Agents Pilot promotion:** eligible (ACV $4,284,000 ≥ $100k, owns Product A/B, within validity Aug 1 2026 – Jan 31 2027) [LATAM-PROMO-402].  
+
+## 6. Scenarios  
+
+| Scenario | ACV (uplift) | Commission | Quota retired | SPIFFs | Approvals | Source |
+|---|---|---|---|---|---|---|
+| 6 % uplift (no justification) | $4,284,000 × 6 % = **$257,040** | 8 % × $257,040 = **$20,563** | 100 % × $257,040 = **$257,040** | none | RVP (exceeds AE 5 % limit) | [LATAM-REN-401] (uplift cap & approvals), [GLB-COMP-006] (commission & quota) |
+| 10 % uplift (with written FX/inflation justification) | $4,284,000 × 10 % = **$428,400** | 8 % × $428,400 = **$34,272** | 100 % × $428,400 = **$428,400** | none | RVP (still ≤10 % RVP limit) | [LATAM-REN-401] (justification & approvals), [GLB-COMP-006] (commission & quota) |
+
+## 7. Recommendation and next 3 actions
+1. **Determine uplift level** – if a 10 % uplift is desired, prepare a written FX or inflation justification to satisfy the cap rule [LATAM-REN-401].  
+2. **Obtain RVP approval** for any uplift above 5 % (both 6 % and 10 % scenarios) [LATAM-REN-401].  
+3. **Bundle the uplift with the Product B expansion** (add 180 seats for $138,600) and the AI Agents Pilot promotion to increase overall renewal value and demonstrate expansion focus per the health play [GLB-HEALTH-007] & [LATAM-PROMO-402].
+
+## Promotions and programs: Rio Verde Bancorp (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Logo Retention SPIFF | SPIFF/program | no | Health score 85 (green) is not below 50 at T-90, so the account is not at‑risk; therefore the at‑risk SPIFF does not apply. | [LATAM-PROG-403] |
+| Multi-Year Kicker | SPIFF/program | no | The account is on a 1‑year renewal (2026‑05‑01 to 2027‑05‑31); the kicker applies only to 3‑year renewals. | [LATAM-PROG-403] |
+| Note | SPIFF/program | no | Document states that LATAM does not run a Renew Early program in FY27, so the program is unavailable. | [LATAM-PROG-403] |
+| Commerce Fiesta | promotion | no | Eligibility limited to Retail & CPG customers; the account is Financial Services, so it does not qualify. | [LATAM-PROMO-402] |
+| AI Agents Pilot | promotion | yes | Current ACV $4,284,000 ≥ $100,000 and the account owns Product A and Product B; the offer is valid (Aug 1 2026 – Jan 31 2027) and today is Oct 17 2026. | [LATAM-PROMO-402] |
+
+- LATAM does not run a Renew Early program in FY27. [LATAM-PROG-403]",1,with_ou_filter
+Q18,approval,South Asia,Who approves a 12% renewal discount for Lotus Ridge IT Services?,1,1,1,1,1,14.5,2,Provides RVP as approver with AE up to 7% and RVP up to 15% as required,"All facts, percentages, dates, and rules are present in the account data or documents","A 12 % renewal discount on Lotus Ridge IT Services must be approved by the **Regional Vice President (RVP)**, because the South Asia renewal addendum limits AE‑approved discounts to 7 % and RVP‑approved discounts up to 15 % of the current ACV [SA-REN-301].
+
+**Also relevant for this account**
+
+- Notice period : 60 days; notice date is 2026-12-02 (46 days from today) [SA-REN-301].  
+- Uplift cap : up to 8 % for a 1‑year renewal [SA-REN-301].  
+- Legal : GSTIN is missing; this is a blocker for booking until the GSTIN is on the order form [SA-REN-301].  
+- Health play : Amber (57) – need to fix the weak driver before proposal [GLB-HEALTH-007].  
+- AE accelerator : AE is at 91 % of quota, so only standard commission rates apply (no accelerator) [GLB-COMP-006].  
+- Eligible promotion : “Analytics Starter” (20 % off Product C) is valid for this industry and date range [SA-PROMO-302].
+
+## Promotions and programs: Lotus Ridge IT Services (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Seat Expansion Accelerator | SPIFF/program | if renewal ACV > $4,775,944 | Requires renewal ACV to grow more than 15% over current ACV ($4,152,995). Current renewal ACV not provided. | [SA-PROG-303] |
+| Renew Early | SPIFF/program | if closed-won by 2026-12-17 | Must be closed‑won at least 45 days before contract end (contract ends 2027-01-31, 45‑day deadline is 2026-12-17). Not yet closed. | [SA-PROG-303] |
+| Partner Co-sell Bonus | SPIFF/program | if renewal involves a registered systems‑integrator partner | Extra 1% commission applies only when a registered systems‑integrator partner participates in the renewal. No partner information provided. | [SA-PROG-303] |
+| SMB Growth Pack | promotion | no | Eligible only for SMB segment; account is Strategic. Also bundle requires Product A + G, which the account does not own. | [SA-PROMO-302] |
+| Analytics Starter | promotion | yes | Industry (Technology & IT Services) matches eligible industries. Validity period Sep 1 2026 – Jan 31 2027 includes today (2026-10-17). | [SA-PROMO-302] |
+
+- No promotion for Product F in South Asia. [SA-PROMO-302]
+- No promotion for Product B in South Asia. [SA-PROMO-302]",1,with_ou_filter
+Q19,promotions,ANZ,What can I offer Kiwi Harbour Bank to grow the renewal?,1,1,0,0,0,28.6,3,"Missing key facts: assistant omitted the AI Attach SPIFF amount/condition and did not state the promotion is not stackable, and incorrectly said the SPIFF is not eligible.","Code check: 4 line(s) have no source, e.g. '- No legal DPA or GSTIN requirement for ANZ/New Zealand[RULES THAT APP'","## 1. Blockers and deadlines
+- No missed notice date – the required 90‑day notice is **2026-11-02**, 16 days away[ANZ-REN-501].  
+- No legal DPA or GSTIN requirement for ANZ/New Zealand[RULES THAT APPLY TO THIS ACCOUNT].  
+- No open P1 cases or other contractual blockers[RULES THAT APPLY TO THIS ACCOUNT].  
+
+## 4. Policy guardrails
+- **Notice period:** 90 days; must submit renewal notice by 2026-11-02[ANZ-REN-501].  
+- **Uplift cap:** up to 6 % for a 1‑year term[ANZ-REN-501].  
+- **Approvals:** AE can approve up‑to 5 % uplift, RVP up‑to 10 %, Deal Desk up‑to 18 % (anything above 18 % goes to VP Finance)[ANZ-REN-501].  
+- **AE accelerator:** Attainment 128 % → incremental bookings paid at **2 ×** the commission rate[RULES THAT APPLY TO THIS ACCOUNT].  
+- **Promotion eligibility:** AI Agents Accelerate (25 % off Product F) is valid for Enterprise accounts that own Product A or B, within Sep 1 – Dec 31 2026[ANZ-PROMO-502].  
+- **Renew Early program:** Not offered in FY27 for ANZ[ANZ-PROG-503].  
+
+## 5. Opportunities
+- **Expansion – Product A seats:** +10 % seats = 70 seats × net price $984 = **$68,880** extra ACV (estimate)[Account data].  
+- **Cross‑sell – Product J (Integration Platform):** estimated ACV **$71,075**[Account data].  
+- **Cross‑sell – Product I (Customer Portal):** estimated ACV **$1,017,595**[Account data].  
+- **Cross‑sell – Product E (Customer Data Platform):** estimated ACV **$532,854**[Account data].  
+- **Promotion – AI Agents Accelerate (Product F):** 25 % off first‑year price, eligible and within valid window[ANZ-PROMO-502].  
+
+## 6. Scenarios  
+
+| Scenario | ACV | Commission | Quota retired | SPIFFs | Approvals | Source |
+|---|---|---|---|---|---|---|
+| A. Flat renewal (no uplift) | $1,094,700 | 3 % of ACV = $32,841 | 50 % of renewal ACV = $547,350 | – | No approval needed (no uplift) | [GLB-COMP-006] |
+| B. Expansion of Product A (+10 % seats) | $68,880 (estimate) | 7 % = $4,822 | 100 % of uplift = $68,880 | – | RVP approval (uplift ≈ 6.3 % > 5 %) | [GLB-COMP-006] |
+| C. Add Product F (AI Agents) with 25 % off | not estimated (price not provided) | 8 % (cross‑sell rate) | 100 % of first‑year ACV | – (AI Attach SPIFF not eligible) | Deal Desk approval (new product) | [ANZ-PROMO-502]; [GLB-COMP-006] |
+| D. Cross‑sell Product I (Customer Portal) | $1,017,595 (estimate) | 8 % = $81,408 | 100 % of ACV = $1,017,595 | – | Deal Desk approval (large deal) | [Account data]; [GLB-COMP-006] |
+
+*All commission amounts are before applying the 2 × accelerator (AE at 128 % attainment)[RULES THAT APPLY TO THIS ACCOUNT].*
+
+## 7. Recommendation and next 3 actions
+**Recommendation:** Pursue a combined **Expansion + AI Agents** scenario (Scenario B + C). The modest 6.3 % uplift stays within the 6 % cap and, together with the AI Agents promotion, addresses the customer’s top priority (halving wait times) while delivering incremental ACV that will be paid at **2 ×** commission. After securing this win, open discussions for high‑value cross‑sell (Product I) in a later cycle.
+
+**Next 3 actions**
+1. **Prepare a renewal proposal** that includes:  
+   - 10 % seat expansion for Product A (+$68,880).  
+   - AI Agents (Product F) with 25 % discount, citing the promotion window (Sep 1 – Dec 31 2026)[ANZ-PROMO-502].  
+   - In‑country hosting details for Product F as requested by the CRO[TR-ACC050-20260910].  
+2. **Obtain RVP approval** for the 6.3 % uplift (exceeds AE 5 % limit)[ANZ-REN-501].  
+3. **Submit the renewal notice** in the CRM before the 90‑day deadline (2026-11-02) to meet the notice requirement[ANZ-REN-501].
+
+## Promotions and programs: Kiwi Harbour Bank (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| ANZ Quota Booster | SPIFF/program | no | Applies only to Strategic accounts; this account is Enterprise segment. | [ANZ-PROG-503] |
+| AI Attach SPIFF | SPIFF/program | no | Requires attach of Product F on renewal with a minimum commitment of 500,000 credits; the account does not own Product F. | [ANZ-PROG-503] |
+| Gov Ready Service | promotion | no | Eligibility limited to Public Sector customers; this account is a Financial Services (B2C) customer, not Public Sector. | [ANZ-PROMO-502] |
+| AI Agents Accelerate ANZ | promotion | yes | Enterprise segment (eligible), owns Product A and/or B (required), within valid dates Sep 1 – Dec 31 2026, and can add Product F at renewal. | [ANZ-PROMO-502] |
+
+- ANZ does not run a Renew Early program in FY27. [ANZ-PROG-503]",1,with_ou_filter
+Q20,policy,GLOBAL,Does overage on a consumption product count as ACV?,1,1,1,1,1,4.3,1,"Answer correctly states overage is not ACV, billed in arrears at list price, and only becomes expansion ACV when converted to a true‑up at renewal.",All claims are directly supported by the cited documents,"Overage on a consumption product is **not** counted as ACV; it is billed monthly in arrears at list price and does not retire quota[GLB-ACV-002]. At renewal, the AE may convert that overage into a true‑up, which is booked as expansion ACV[GLB-ACV-002].
+
+**Also relevant for this account**
+
+- Overage is defined as usage above the committed quantity and is billed at list price with no discount[GLB-ACV-002].  
+- Overage does **not** count toward ACV and does not retire quota[GLB-ACV-002].  
+- At renewal, the true‑up quantity = (trailing 3‑month run rate × 12) – current committed quantity[GLB-ACV-002].  
+- True‑up ACV = true‑up quantity × renewal net unit price[GLB-ACV-002].  
+- A true‑up is recorded as **expansion ACV**[GLB-ACV-002].  
+- Utilization above 100% (overage) triggers the “Convert the overage into a committed true‑up (expansion ACV)” play[GLB-HEALTH-007].",1,with_ou_filter
+Q21,explain,EMEA,Why is Helvetia Logistics AG's health score amber?,1,1,0,1,1,17.9,2,Missing the mixed utilization detail about Product F shelfware and Product A declining offset by B and E,"All facts, numbers, dates, and rules are present in the account data or documents","Helvetia Logistics AG’s health score is **64 (Amber)** because the overall calculation falls into the 50-74 band [Account data]. The score is pulled down by several weak drivers:
+
+* **Utilization:** average 3‑month utilization across owned products is (64.0 + 92.8 + 116.9 + 22.9) ÷ 4 = 74.15 % [Account data].  
+* **Trend:** two products are falling (>5 %) (Product A ‑9 % and Product F ‑16 %), giving a trend score of (30 + 100 + 100 + 30) ÷ 4 = 65 % [Account data].  
+* **Support:** there is **1 open P1 case**, which scores 60 % [GLB-HEALTH-007].  
+* **Executive sponsor:** the sponsor **changed** in the last 6 months, scoring 30 % [Account data] [GLB-HEALTH-007].  
+* **Breadth:** the customer owns 4 products (A, B, E, F) out of the 4‑product benchmark, scoring 100 % [Account data] [GLB-HEALTH-007].
+
+These components combine to a health score of 64, placing the account in the **Amber** band, which according to the health play requires fixing the weak driver before presenting a renewal proposal [GLB-HEALTH-007].
+
+**Also relevant for this account**
+
+- **Notice date status:** Required notice 120 days (DACH) was 2026-10-03 and is **PASSED** [EMEA-REN-201].  
+- **Uplift cap:** Up to **4 % per year** for multi‑year contracts [EMEA-REN-201].  
+- **Approvals:** AE can approve up to **5 %** off current ACV; RVP up to **12 %**, Deal Desk up to **20 %** [EMEA-REN-201].  
+- **Legal requirement:** Must have **DPA v4.2** re‑signed before booking the renewal [EMEA-REN-201].  
+- **Eligible programs:** *Cross‑Sell Champion* SPIFF is **eligible** (adds a new product) [EMEA-PROG-203]; *Renew Early* is **conditionally eligible** if closed by 2026-12-02 [EMEA-PROG-203]; all other listed promotions are **not eligible** [EMEA-PROMO-202].  
+- **AE accelerator:** At **96 %** of FY27 quota, the AE receives **standard commission rates** (no accelerator) [GLB-COMP-006].
+
+## Promotions and programs: Helvetia Logistics AG (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Cross-Sell Champion | SPIFF/program | yes | Customer has at least one product not owned today (e.g., Product C, D, G) that can be added at renewal, satisfying the requirement of adding a new product. | [EMEA-PROG-203] |
+| Renew Early | SPIFF/program | if closed by 2026-12-02 | Requires the renewal to be closed‑won at least 60 days before contract end (by 2026-12-02). The renewal is not yet closed, so eligibility is conditional on closing by that date. | [EMEA-PROG-203] |
+| Note | SPIFF/program | no | AI Attach SPIFF and Consumption True‑Up SPIFF are explicitly stated as not run in EMEA FY27, so no eligibility. | [EMEA-PROG-203] |
+| Service Switch | promotion | no | Customer is in Transportation & Logistics, not Financial Services, and already owns Product B; both conditions for eligibility fail. | [EMEA-PROMO-202] |
+| Portal for Public Services | promotion | no | Customer is not in Public Sector or Healthcare, so the eligibility criteria are not met. | [EMEA-PROMO-202] |
+| Note | promotion | no | Document states there is no Product F (AI Agents) promotion in EMEA FY27 H2, so the offer does not exist for this account. | [EMEA-PROMO-202] |
+
+- EMEA does not run an AI Attach SPIFF or a Consumption True-Up SPIFF in FY27. [EMEA-PROG-203]
+- There is no Product F (AI Agents) promotion in EMEA in FY27 H2. [EMEA-PROMO-202]
+- No promotion for Product E in EMEA. [EMEA-PROMO-202]
+- No promotion for Product F in EMEA. [EMEA-PROMO-202]",1,with_ou_filter
+Q22,portfolio,AMER,Which of Jordan Ellis's accounts renew in the next 90 days?,1,1,0,1,1,5.1,1,The answer omitted the required ACV amounts for both accounts,All facts are found in the account data or cited documents,"Lakeshore Mutual Insurance (ends 2026-12-31) and Granite Peak Consulting (ends 2026-12-31) are the only accounts whose contracts expire within the next 90 days [Account data].
+
+**Also relevant for these accounts**
+
+- Notice period is 90 days before contract end; both accounts are now inside the notice window and should receive renewal notices immediately [AMER-REN-101].
+- Uplift caps allow up to 7 % increase for a 1‑year renewal [AMER-REN-101].
+- Renew‑Early SPIFF applies because the renewals can be closed‑won ≥ 60 days before end, retiring 110 % of renewal ACV to quota [AMER-PROG-103].
+- Lakeshore Mutual Insurance is eligible for the **AI Agents Accelerate** promotion (30 % off Product F) because it already owns Product A and B and the promo is valid Aug 1 2026 – Jan 31 2027 [AMER-PROMO-102].
+- Granite Peak Consulting does **not** qualify for the AI Agents Accelerate promo (no Product F in its portfolio) [AMER-PROMO-102].
+- Standard approval limits apply: AE can approve up to 5 % of current ACV; any uplift above 5 % requires RVP sign‑off [AMER-REN-101].",1,with_ou_filter
+Q23,portfolio,EMEA,Which of Sophie Laurent's accounts have shelfware?,1,0,0,1,1,11.3,2,The assistant gave 22.9% instead of the expected 23% for Product F,All facts are present in the account data and documents,"Helvetia Logistics AG is the only one of Sophie Laurent’s accounts that contains shelfware – Product F is at **22.9 % utilization** and is flagged as SHELFWARE [Account data].
+
+**Also relevant for this account**  
+- Notice period: 120 days (DACH customer) [EMEA-REN-201]  
+- Uplift cap: up to **5 %** (no inflation‑indexation clause) [EMEA-REN-201]  
+- Approval limits: AE up to **5 %**, RVP up to **12 %**, Deal Desk up to **20 %** off current ACV [EMEA-REN-201]  
+- Currency: EUR, GBP or CHF (Switzerland may be invoiced in CHF) [EMEA-REN-201]  
+- Eligible promotions: none – Portal for Public Services requires Public Sector/Healthcare, Service Switch requires Financial Services and product B not owned, and there is no Product F promotion in FY27 [EMEA-PROMO-202]  
+- AE’s accelerator: not applicable (attainment 96 % < 100 %) [Account data]",1,with_ou_filter
+Q24,consumption,EMEA,What was Helvetia Logistics AG's per-user consumption of Product B last month?,1,1,0,1,1,12.3,1,"Answer omits several key facts from the expected answer (active agents, total cases, seat activation percentage)","All facts, dates, percentages, and program eligibility statements are present in the account data or documents.","Helvetia Logistics AG’s Product B (Service Desk) generated **61.5 cases closed per active user in Oct 2026** — that is the per‑user consumption metric for the last month [Account data].
+
+**Also relevant for this account**
+
+- Notice period 120 days for DACH customers; the required notice date (2026-10-03) has already passed [EMEA-REN-201].  
+- Uplift cap up to 4 % per year for multi‑year contracts [EMEA-REN-201].  
+- Legal: DPA v4.2 must be re‑signed before the renewal can be booked [EMEA-REN-201].  
+- Approvals: AE can approve up to 5 % off current ACV; RVP up to 12 %; Deal Desk up to 20 % [EMEA-REN-201].  
+- Eligible program: Cross‑Sell Champion SPIFF (retires 200 % of first‑year ACV for a new product added at renewal) [EMEA-PROG-203].  
+- AE accelerator: at 96 % FY27 quota attainment, only standard commission rates apply (no accelerator) [GLB-COMP-006].
+
+## Promotions and programs: Helvetia Logistics AG (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Cross-Sell Champion | SPIFF/program | yes | Customer has at least one product not owned today (e.g., Product C, D, G) that can be added at renewal, satisfying the requirement of adding a new product. | [EMEA-PROG-203] |
+| Renew Early | SPIFF/program | if closed by 2026-12-02 | Requires the renewal to be closed‑won at least 60 days before contract end (by 2026-12-02). The renewal is not yet closed, so eligibility is conditional on closing by that date. | [EMEA-PROG-203] |
+| Note | SPIFF/program | no | AI Attach SPIFF and Consumption True‑Up SPIFF are explicitly stated as not run in EMEA FY27, so no eligibility. | [EMEA-PROG-203] |
+| Service Switch | promotion | no | Customer is in Transportation & Logistics, not Financial Services, and already owns Product B; both conditions for eligibility fail. | [EMEA-PROMO-202] |
+| Portal for Public Services | promotion | no | Customer is not in Public Sector or Healthcare, so the eligibility criteria are not met. | [EMEA-PROMO-202] |
+| Note | promotion | no | Document states there is no Product F (AI Agents) promotion in EMEA FY27 H2, so the offer does not exist for this account. | [EMEA-PROMO-202] |
+
+- EMEA does not run an AI Attach SPIFF or a Consumption True-Up SPIFF in FY27. [EMEA-PROG-203]
+- There is no Product F (AI Agents) promotion in EMEA in FY27 H2. [EMEA-PROMO-202]
+- No promotion for Product E in EMEA. [EMEA-PROMO-202]
+- No promotion for Product F in EMEA. [EMEA-PROMO-202]",1,with_ou_filter
+Q25,account_policy,LATAM,"São Paulo Saúde renews on Oct 31, 2026. Can I still add an uplift?",1,1,0,0,0,15.8,3,"Missing key facts about auto‑renew being ON, escalation to RVP/Deal Desk, and Brazil invoice Nota Fiscal requirement","Code check: 1 line(s) have no source, e.g. '- Eligible promotion AI Agents Pilot (free 3‑month Product F pilot) [L'","The notice date (2026-09-01) has already passed, so you cannot apply a price uplift unilaterally. An uplift is still possible **only if** you obtain the customer’s written agreement (and, for >6 % uplift, a written FX or inflation justification) [GLB-REN-001] [LATAM-REN-401].
+
+**Also relevant for this account**
+
+- Notice period 60 days; notice date 2026-09-01 is **PASSED** [Account data]  
+- Uplift cap 6 % (1‑yr) or up to 10 % with written FX/inflation justification [LATAM-REN-401]  
+- No DPA or GSTIN requirement for Brazil (LATAM) [Account data]  
+- Health play Green (76) → renewal likely; focus on expansion [GLB-HEALTH-007] (derived from RULES)  
+- AE accelerator none (93 % quota → standard rates) [GLB-COMP-006]  
+- Eligible promotion AI Agents Pilot (free 3‑month Product F pilot) [LAN-PROMO-402]
+
+## Promotions and programs: São Paulo Saúde (each one checked)
+
+| Offer | Type | Eligible? | Why | Source |
+|---|---|---|---|---|
+| Logo Retention SPIFF | SPIFF/program | no | Health score at T‑90 (2026‑08‑02) is 76 (>50), so account is not at‑risk; requirement not met. | [LATAM-PROG-403] |
+| Multi-Year Kicker | SPIFF/program | no | Current renewal is a 1‑year term; 3‑year term required for the kicker. | [LATAM-PROG-403] |
+| Note | SPIFF/program | no | Program mentioned (Renew Early) is explicitly not run in LATAM FY27. | [LATAM-PROG-403] |
+| Commerce Fiesta | promotion | no | Industry eligibility limited to Retail & CPG; account is Healthcare. Date window (Oct‑Dec 2026) is valid but industry condition fails. | [LATAM-PROMO-402] |
+| AI Agents Pilot | promotion | yes | Current ACV $206,916 ≥ $100,000, owns Product A, and today (2026‑10‑17) falls within the valid period (Aug 1 2026 – Jan 31 2027). | [LATAM-PROMO-402] |
+
+- LATAM does not run a Renew Early program in FY27. [LATAM-PROG-403]",1,with_ou_filter

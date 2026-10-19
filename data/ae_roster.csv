@@ -1,0 +1,16 @@
+ae_id,ae_name,ou,segment_focus,fy27_quota_usd,attainment_ytd_pct
+AE-101,Jordan Ellis,AMER,Enterprise & Strategic,4200000,112
+AE-102,Maya Thompson,AMER,Commercial,2400000,88
+AE-103,Carlos Rivera,AMER,SMB & Public Sector,1600000,74
+AE-201,Sophie Laurent,EMEA,Enterprise & Strategic,4200000,96
+AE-202,Lukas Becker,EMEA,Commercial,2400000,81
+AE-203,Amara Okafor,EMEA,SMB & Public Sector,1600000,104
+AE-301,Priya Raman,South Asia,Enterprise & Strategic,4200000,91
+AE-302,Arjun Mehta,South Asia,Commercial,2400000,67
+AE-303,Nadia Rahman,South Asia,SMB,1200000,118
+AE-401,Valentina Cruz,LATAM,Enterprise & Strategic,4200000,79
+AE-402,Diego Alvarez,LATAM,Commercial,2400000,93
+AE-403,Camila Souza,LATAM,SMB & Public Sector,1600000,58
+AE-501,Liam O'Connor,ANZ,Enterprise & Strategic,4200000,128
+AE-502,Aroha Ngata,ANZ,Commercial,2400000,85
+AE-503,Chloe Nguyen,ANZ,SMB & Public Sector,1600000,99

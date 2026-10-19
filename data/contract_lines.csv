@@ -1,0 +1,168 @@
+line_id,account_id,product_code,product_name,pricing_model,licensed_qty,licensed_unit,list_price_per_unit_yr,discount_pct,net_price_per_unit_yr,line_acv_usd
+ACC-001-F,ACC-001,F,Product F · AI Agents,consumption,3760000,credits per year,0.1,15,0.085,319600
+ACC-001-J,ACC-001,J,Product J · Integration Platform,consumption,581,million API calls per year,200.0,15,170.0,98770
+ACC-001-A,ACC-001,A,Product A · Sales CRM,seat,1225,seats,1200.0,15,1020.0,1249500
+ACC-002-A,ACC-002,A,Product A · Sales CRM,seat,4200,seats,1200.0,30,840.0,3528000
+ACC-002-B,ACC-002,B,Product B · Service Desk,seat,2600,seats,1100.0,30,770.0,2002000
+ACC-002-F,ACC-002,F,Product F · AI Agents,consumption,6000000,credits per year,0.1,30,0.07,420000
+ACC-002-E,ACC-002,E,Product E · Customer Data Platform,consumption,12000000,credits per year,0.06,30,0.042,504000
+ACC-003-B,ACC-003,B,Product B · Service Desk,seat,225,seats,1100.0,9,1001.0,225225
+ACC-003-G,ACC-003,G,Product G · Marketing Automation,consumption,17,million messages per year,3000.0,9,2730.0,46410
+ACC-003-A,ACC-003,A,Product A · Sales CRM,seat,315,seats,1200.0,9,1092.0,343980
+ACC-004-A,ACC-004,A,Product A · Sales CRM,seat,220,seats,1200.0,8,1104.0,242880
+ACC-004-G,ACC-004,G,Product G · Marketing Automation,consumption,15,million messages per year,3000.0,8,2760.0,41400
+ACC-005-A,ACC-005,A,Product A · Sales CRM,seat,900,seats,1200.0,15,1020.0,918000
+ACC-005-E,ACC-005,E,Product E · Customer Data Platform,consumption,3500000,credits per year,0.06,15,0.051,178500
+ACC-005-J,ACC-005,J,Product J · Integration Platform,consumption,500,million API calls per year,200.0,15,170.0,85000
+ACC-006-B,ACC-006,B,Product B · Service Desk,seat,600,seats,1100.0,12,968.0,580800
+ACC-006-I,ACC-006,I,Product I · Customer Portal,consumption,1500000,member logins per year,0.4,12,0.352,528000
+ACC-007-A,ACC-007,A,Product A · Sales CRM,seat,30,seats,1200.0,2,1176.0,35280
+ACC-008-A,ACC-008,A,Product A · Sales CRM,seat,480,seats,1200.0,9,1092.0,524160
+ACC-008-E,ACC-008,E,Product E · Customer Data Platform,consumption,1350000,credits per year,0.06,9,0.0546,73710
+ACC-008-D,ACC-008,D,Product D · Team Chat,seat,875,seats,150.0,9,136.5,119438
+ACC-008-J,ACC-008,J,Product J · Integration Platform,consumption,163,million API calls per year,200.0,9,182.0,29666
+ACC-009-A,ACC-009,A,Product A · Sales CRM,seat,470,seats,1200.0,14,1032.0,485040
+ACC-009-I,ACC-009,I,Product I · Customer Portal,consumption,735000,member logins per year,0.4,14,0.344,252840
+ACC-009-D,ACC-009,D,Product D · Team Chat,seat,1085,seats,150.0,14,129.0,139965
+ACC-009-G,ACC-009,G,Product G · Marketing Automation,consumption,10,million messages per year,3000.0,14,2580.0,25800
+ACC-010-I,ACC-010,I,Product I · Customer Portal,consumption,83000,member logins per year,0.4,2,0.392,32536
+ACC-011-D,ACC-011,D,Product D · Team Chat,seat,105,seats,150.0,3,145.5,15278
+ACC-011-A,ACC-011,A,Product A · Sales CRM,seat,80,seats,1200.0,3,1164.0,93120
+ACC-012-A,ACC-012,A,Product A · Sales CRM,seat,1780,seats,1200.0,35,780.0,1388400
+ACC-012-D,ACC-012,D,Product D · Team Chat,seat,12940,seats,150.0,35,97.5,1261650
+ACC-013-A,ACC-013,A,Product A · Sales CRM,seat,600,seats,1200.0,18,984.0,590400
+ACC-013-B,ACC-013,B,Product B · Service Desk,seat,300,seats,1100.0,18,902.0,270600
+ACC-013-E,ACC-013,E,Product E · Customer Data Platform,consumption,3000000,credits per year,0.06,18,0.0492,147600
+ACC-013-F,ACC-013,F,Product F · AI Agents,consumption,2000000,credits per year,0.1,18,0.082,164000
+ACC-014-A,ACC-014,A,Product A · Sales CRM,seat,320,seats,1200.0,10,1080.0,345600
+ACC-014-C,ACC-014,C,Product C · Analytics & BI,seat,60,seats,900.0,10,810.0,48600
+ACC-015-A,ACC-015,A,Product A · Sales CRM,seat,800,seats,1200.0,20,960.0,768000
+ACC-015-J,ACC-015,J,Product J · Integration Platform,consumption,450,million API calls per year,200.0,20,160.0,72000
+ACC-015-C,ACC-015,C,Product C · Analytics & BI,seat,150,seats,900.0,20,720.0,108000
+ACC-016-E,ACC-016,E,Product E · Customer Data Platform,consumption,1490000,credits per year,0.06,10,0.054,80460
+ACC-016-D,ACC-016,D,Product D · Team Chat,seat,220,seats,150.0,10,135.0,29700
+ACC-016-B,ACC-016,B,Product B · Service Desk,seat,165,seats,1100.0,10,990.0,163350
+ACC-016-A,ACC-016,A,Product A · Sales CRM,seat,130,seats,1200.0,10,1080.0,140400
+ACC-017-F,ACC-017,F,Product F · AI Agents,consumption,5130000,credits per year,0.1,22,0.078,400140
+ACC-017-G,ACC-017,G,Product G · Marketing Automation,consumption,250,million messages per year,3000.0,22,2340.0,585000
+ACC-017-B,ACC-017,B,Product B · Service Desk,seat,1300,seats,1100.0,22,858.0,1115400
+ACC-018-C,ACC-018,C,Product C · Analytics & BI,seat,60,seats,900.0,5,855.0,51300
+ACC-019-A,ACC-019,A,Product A · Sales CRM,seat,65,seats,1200.0,10,1080.0,70200
+ACC-019-F,ACC-019,F,Product F · AI Agents,consumption,374000,credits per year,0.1,10,0.09,33660
+ACC-019-G,ACC-019,G,Product G · Marketing Automation,consumption,1,million messages per year,3000.0,10,2700.0,2700
+ACC-019-B,ACC-019,B,Product B · Service Desk,seat,35,seats,1100.0,10,990.0,34650
+ACC-020-B,ACC-020,B,Product B · Service Desk,seat,150,seats,1100.0,10,990.0,148500
+ACC-020-C,ACC-020,C,Product C · Analytics & BI,seat,65,seats,900.0,10,810.0,52650
+ACC-021-G,ACC-021,G,Product G · Marketing Automation,consumption,1,million messages per year,3000.0,6,2820.0,2820
+ACC-021-B,ACC-021,B,Product B · Service Desk,seat,30,seats,1100.0,6,1034.0,31020
+ACC-021-E,ACC-021,E,Product E · Customer Data Platform,consumption,568000,credits per year,0.06,6,0.0564,32035
+ACC-021-F,ACC-021,F,Product F · AI Agents,consumption,249000,credits per year,0.1,6,0.094,23406
+ACC-022-F,ACC-022,F,Product F · AI Agents,consumption,364000,credits per year,0.1,2,0.098,35672
+ACC-022-B,ACC-022,B,Product B · Service Desk,seat,50,seats,1100.0,2,1078.0,53900
+ACC-022-D,ACC-022,D,Product D · Team Chat,seat,140,seats,150.0,2,147.0,20580
+ACC-023-D,ACC-023,D,Product D · Team Chat,seat,3800,seats,150.0,16,126.0,478800
+ACC-023-E,ACC-023,E,Product E · Customer Data Platform,consumption,5080000,credits per year,0.06,16,0.0504,256032
+ACC-023-A,ACC-023,A,Product A · Sales CRM,seat,860,seats,1200.0,16,1008.0,866880
+ACC-024-A,ACC-024,A,Product A · Sales CRM,seat,4470,seats,1200.0,29,852.0,3808440
+ACC-024-C,ACC-024,C,Product C · Analytics & BI,seat,450,seats,900.0,29,639.0,287550
+ACC-025-A,ACC-025,A,Product A · Sales CRM,seat,260,seats,1200.0,10,1080.0,280800
+ACC-025-G,ACC-025,G,Product G · Marketing Automation,consumption,12,million messages per year,3000.0,10,2700.0,32400
+ACC-025-H,ACC-025,H,Product H · Commerce,consumption,12000000,USD GMV per year,0.015,10,0.0135,162000
+ACC-026-E,ACC-026,E,Product E · Customer Data Platform,consumption,525000,credits per year,0.06,2,0.0588,30870
+ACC-026-I,ACC-026,I,Product I · Customer Portal,consumption,73000,member logins per year,0.4,2,0.392,28616
+ACC-026-A,ACC-026,A,Product A · Sales CRM,seat,95,seats,1200.0,2,1176.0,111720
+ACC-027-I,ACC-027,I,Product I · Customer Portal,consumption,2220000,member logins per year,0.4,24,0.304,674880
+ACC-027-C,ACC-027,C,Product C · Analytics & BI,seat,110,seats,900.0,24,684.0,75240
+ACC-028-F,ACC-028,F,Product F · AI Agents,consumption,11210000,credits per year,0.1,23,0.077,863170
+ACC-028-E,ACC-028,E,Product E · Customer Data Platform,consumption,16850000,credits per year,0.06,23,0.0462,778470
+ACC-028-B,ACC-028,B,Product B · Service Desk,seat,2965,seats,1100.0,23,847.0,2511355
+ACC-029-A,ACC-029,A,Product A · Sales CRM,seat,1175,seats,1200.0,24,912.0,1071600
+ACC-029-G,ACC-029,G,Product G · Marketing Automation,consumption,67,million messages per year,3000.0,24,2280.0,152760
+ACC-029-C,ACC-029,C,Product C · Analytics & BI,seat,150,seats,900.0,24,684.0,102600
+ACC-030-G,ACC-030,G,Product G · Marketing Automation,consumption,4,million messages per year,3000.0,7,2790.0,11160
+ACC-030-J,ACC-030,J,Product J · Integration Platform,consumption,25,million API calls per year,200.0,7,186.0,4650
+ACC-030-E,ACC-030,E,Product E · Customer Data Platform,consumption,418000,credits per year,0.06,7,0.0558,23324
+ACC-030-H,ACC-030,H,Product H · Commerce,consumption,1990000,USD GMV per year,0.015,7,0.01395,27760
+ACC-031-J,ACC-031,J,Product J · Integration Platform,consumption,90,million API calls per year,200.0,12,176.0,15840
+ACC-031-G,ACC-031,G,Product G · Marketing Automation,consumption,12,million messages per year,3000.0,12,2640.0,31680
+ACC-031-D,ACC-031,D,Product D · Team Chat,seat,670,seats,150.0,12,132.0,88440
+ACC-032-E,ACC-032,E,Product E · Customer Data Platform,consumption,1860000,credits per year,0.06,9,0.0546,101556
+ACC-032-D,ACC-032,D,Product D · Team Chat,seat,1475,seats,150.0,9,136.5,201338
+ACC-032-I,ACC-032,I,Product I · Customer Portal,consumption,240000,member logins per year,0.4,9,0.364,87360
+ACC-032-C,ACC-032,C,Product C · Analytics & BI,seat,30,seats,900.0,9,819.0,24570
+ACC-033-A,ACC-033,A,Product A · Sales CRM,seat,25,seats,1200.0,5,1140.0,28500
+ACC-033-I,ACC-033,I,Product I · Customer Portal,consumption,113000,member logins per year,0.4,5,0.38,42940
+ACC-033-E,ACC-033,E,Product E · Customer Data Platform,consumption,567000,credits per year,0.06,5,0.057,32319
+ACC-034-C,ACC-034,C,Product C · Analytics & BI,seat,20,seats,900.0,8,828.0,16560
+ACC-034-A,ACC-034,A,Product A · Sales CRM,seat,70,seats,1200.0,8,1104.0,77280
+ACC-034-J,ACC-034,J,Product J · Integration Platform,consumption,44,million API calls per year,200.0,8,184.0,8096
+ACC-035-E,ACC-035,E,Product E · Customer Data Platform,consumption,1740000,credits per year,0.06,8,0.0552,96048
+ACC-035-C,ACC-035,C,Product C · Analytics & BI,seat,35,seats,900.0,8,828.0,28980
+ACC-036-H,ACC-036,H,Product H · Commerce,consumption,3000000,USD GMV per year,0.015,9,0.01365,40950
+ACC-036-D,ACC-036,D,Product D · Team Chat,seat,55,seats,150.0,9,136.5,7508
+ACC-036-A,ACC-036,A,Product A · Sales CRM,seat,70,seats,1200.0,9,1092.0,76440
+ACC-036-B,ACC-036,B,Product B · Service Desk,seat,25,seats,1100.0,9,1001.0,25025
+ACC-037-A,ACC-037,A,Product A · Sales CRM,seat,900,seats,1200.0,15,1020.0,918000
+ACC-037-H,ACC-037,H,Product H · Commerce,consumption,40000000,USD GMV per year,0.015,15,0.01275,510000
+ACC-038-A,ACC-038,A,Product A · Sales CRM,seat,3000,seats,1200.0,30,840.0,2520000
+ACC-038-B,ACC-038,B,Product B · Service Desk,seat,1800,seats,1100.0,30,770.0,1386000
+ACC-038-E,ACC-038,E,Product E · Customer Data Platform,consumption,9000000,credits per year,0.06,30,0.042,378000
+ACC-039-F,ACC-039,F,Product F · AI Agents,consumption,2960000,credits per year,0.1,17,0.083,245680
+ACC-039-A,ACC-039,A,Product A · Sales CRM,seat,1440,seats,1200.0,17,996.0,1434240
+ACC-039-H,ACC-039,H,Product H · Commerce,consumption,53570000,USD GMV per year,0.015,17,0.01245,666946
+ACC-039-J,ACC-039,J,Product J · Integration Platform,consumption,501,million API calls per year,200.0,17,166.0,83166
+ACC-040-C,ACC-040,C,Product C · Analytics & BI,seat,30,seats,900.0,5,855.0,25650
+ACC-040-A,ACC-040,A,Product A · Sales CRM,seat,410,seats,1200.0,5,1140.0,467400
+ACC-040-J,ACC-040,J,Product J · Integration Platform,consumption,149,million API calls per year,200.0,5,190.0,28310
+ACC-040-I,ACC-040,I,Product I · Customer Portal,consumption,673000,member logins per year,0.4,5,0.38,255740
+ACC-041-B,ACC-041,B,Product B · Service Desk,seat,40,seats,1100.0,9,1001.0,40040
+ACC-041-H,ACC-041,H,Product H · Commerce,consumption,2280000,USD GMV per year,0.015,9,0.01365,31122
+ACC-041-C,ACC-041,C,Product C · Analytics & BI,seat,11,seats,900.0,9,819.0,9009
+ACC-042-A,ACC-042,A,Product A · Sales CRM,seat,155,seats,1200.0,14,1032.0,159960
+ACC-042-E,ACC-042,E,Product E · Customer Data Platform,consumption,910000,credits per year,0.06,14,0.0516,46956
+ACC-043-B,ACC-043,B,Product B · Service Desk,seat,245,seats,1100.0,13,957.0,234465
+ACC-043-D,ACC-043,D,Product D · Team Chat,seat,1150,seats,150.0,13,130.5,150075
+ACC-044-D,ACC-044,D,Product D · Team Chat,seat,60,seats,150.0,5,142.5,8550
+ACC-045-G,ACC-045,G,Product G · Marketing Automation,consumption,5,million messages per year,3000.0,13,2610.0,13050
+ACC-045-B,ACC-045,B,Product B · Service Desk,seat,285,seats,1100.0,13,957.0,272745
+ACC-045-E,ACC-045,E,Product E · Customer Data Platform,consumption,1590000,credits per year,0.06,13,0.0522,82998
+ACC-046-J,ACC-046,J,Product J · Integration Platform,consumption,16,million API calls per year,200.0,3,194.0,3104
+ACC-046-H,ACC-046,H,Product H · Commerce,consumption,3820000,USD GMV per year,0.015,3,0.01455,55581
+ACC-046-A,ACC-046,A,Product A · Sales CRM,seat,70,seats,1200.0,3,1164.0,81480
+ACC-047-C,ACC-047,C,Product C · Analytics & BI,seat,155,seats,900.0,19,729.0,112995
+ACC-047-J,ACC-047,J,Product J · Integration Platform,consumption,254,million API calls per year,200.0,19,162.0,41148
+ACC-047-A,ACC-047,A,Product A · Sales CRM,seat,1240,seats,1200.0,19,972.0,1205280
+ACC-047-I,ACC-047,I,Product I · Customer Portal,consumption,1160000,member logins per year,0.4,19,0.324,375840
+ACC-048-A,ACC-048,A,Product A · Sales CRM,seat,90,seats,1200.0,8,1104.0,99360
+ACC-048-E,ACC-048,E,Product E · Customer Data Platform,consumption,576000,credits per year,0.06,8,0.0552,31795
+ACC-048-C,ACC-048,C,Product C · Analytics & BI,seat,25,seats,900.0,8,828.0,20700
+ACC-048-F,ACC-048,F,Product F · AI Agents,consumption,206000,credits per year,0.1,8,0.092,18952
+ACC-049-G,ACC-049,G,Product G · Marketing Automation,consumption,37,million messages per year,3000.0,18,2460.0,91020
+ACC-049-E,ACC-049,E,Product E · Customer Data Platform,consumption,2100000,credits per year,0.06,18,0.0492,103320
+ACC-050-A,ACC-050,A,Product A · Sales CRM,seat,700,seats,1200.0,18,984.0,688800
+ACC-050-B,ACC-050,B,Product B · Service Desk,seat,450,seats,1100.0,18,902.0,405900
+ACC-051-J,ACC-051,J,Product J · Integration Platform,consumption,184,million API calls per year,200.0,15,170.0,31280
+ACC-051-A,ACC-051,A,Product A · Sales CRM,seat,405,seats,1200.0,15,1020.0,413100
+ACC-052-A,ACC-052,A,Product A · Sales CRM,seat,180,seats,1200.0,13,1044.0,187920
+ACC-053-J,ACC-053,J,Product J · Integration Platform,consumption,12,million API calls per year,200.0,5,190.0,2280
+ACC-053-A,ACC-053,A,Product A · Sales CRM,seat,70,seats,1200.0,5,1140.0,79800
+ACC-053-E,ACC-053,E,Product E · Customer Data Platform,consumption,502000,credits per year,0.06,5,0.057,28614
+ACC-053-B,ACC-053,B,Product B · Service Desk,seat,50,seats,1100.0,5,1045.0,52250
+ACC-054-A,ACC-054,A,Product A · Sales CRM,seat,305,seats,1200.0,12,1056.0,322080
+ACC-054-J,ACC-054,J,Product J · Integration Platform,consumption,196,million API calls per year,200.0,12,176.0,34496
+ACC-054-I,ACC-054,I,Product I · Customer Portal,consumption,701000,member logins per year,0.4,12,0.352,246752
+ACC-055-C,ACC-055,C,Product C · Analytics & BI,seat,18,seats,900.0,5,855.0,15390
+ACC-056-B,ACC-056,B,Product B · Service Desk,seat,465,seats,1100.0,16,924.0,429660
+ACC-057-E,ACC-057,E,Product E · Customer Data Platform,consumption,1440000,credits per year,0.06,7,0.0558,80352
+ACC-057-B,ACC-057,B,Product B · Service Desk,seat,60,seats,1100.0,7,1023.0,61380
+ACC-057-A,ACC-057,A,Product A · Sales CRM,seat,320,seats,1200.0,7,1116.0,357120
+ACC-057-C,ACC-057,C,Product C · Analytics & BI,seat,100,seats,900.0,7,837.0,83700
+ACC-058-A,ACC-058,A,Product A · Sales CRM,seat,35,seats,1200.0,10,1080.0,37800
+ACC-058-D,ACC-058,D,Product D · Team Chat,seat,50,seats,150.0,10,135.0,6750
+ACC-058-J,ACC-058,J,Product J · Integration Platform,consumption,10,million API calls per year,200.0,10,180.0,1800
+ACC-058-I,ACC-058,I,Product I · Customer Portal,consumption,114000,member logins per year,0.4,10,0.36,41040
+ACC-059-A,ACC-059,A,Product A · Sales CRM,seat,85,seats,1200.0,9,1092.0,92820
+ACC-059-B,ACC-059,B,Product B · Service Desk,seat,45,seats,1100.0,9,1001.0,45045
+ACC-060-B,ACC-060,B,Product B · Service Desk,seat,2200,seats,1100.0,28,792.0,1742400
+ACC-060-I,ACC-060,I,Product I · Customer Portal,consumption,6000000,member logins per year,0.4,28,0.288,1728000
+ACC-060-J,ACC-060,J,Product J · Integration Platform,consumption,1500,million API calls per year,200.0,28,144.0,216000
